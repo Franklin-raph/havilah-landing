@@ -37,7 +37,7 @@ const Nav = () => {
             <span className='text-[#0073DD]'>Lagos, Nigeria</span>
         </div>
         <ul className='flex justify-between items-center gap-5 text-[#555]'>
-            <li className='flex items-center gap-1'>
+            <li className='flex items-center gap-1 cursor-pointer'>
                 <p>Services</p>
                 <HiMiniChevronDown />
             </li>
@@ -46,7 +46,7 @@ const Nav = () => {
                     Projects
                 </Link>
             </li>
-            <li className='flex items-center gap-1'>
+            <li className='flex items-center gap-1 cursor-pointer'>
                 <p>Company</p>
                 <HiMiniChevronDown />
             </li>
