@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('@fontsource/space-grotesk/index.css');
+
+
+* {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.text-gradient{
+  background: linear-gradient(86deg, #004FFF 12.97%, #15D300 128.86%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
