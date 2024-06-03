@@ -3,7 +3,7 @@ import React from 'react'
 const MainArea = () => {
   return (
     <div className='text-center'>
-        <p className='text-[22px]'>Havilah Blockchain Studios →️ 👨🏻‍💻 <span className="text-transparent text-gradient">Designs, Builds and Scales</span> </p>
+        <p className='text-[22px]'>Havilah Blockchain Studios →️ <span className="text-transparent text-gradient">Designs, Builds and Scales</span> </p>
         <p className='text-[64px] font-[500] w-[90%] mx-auto mt-4 leading-[68.224px] tracking-[-3.2px]'>Web3 Startups using cutting-edge Solutions that fit your budget.</p>
         <p className='text-[#717171] text-[28px] w-[65%] mt-5 mx-auto tracking-[-1.4px]'>Get your idea from paper to web or server in the shortest possible time using the most scalable architecture.</p>
         <button className='bg-[#0F0A3E] px-[15px] rounded-full py-2 text-white mt-[4rem]'>Book a Call</button>
@@ -76,9 +76,35 @@ const MainArea = () => {
                 <p className='text-white mt-8'>Experience personalized guidance tailored to your startup's unique goals. Our dedicated team will meticulously analyze your project requirements, crafting customized recommendations to harness the full potential of blockchain technology for your business success.</p>
             </div>
         </div>
-        <div className='text-left'>
+        <div className='text-left px-[50px] mt-[5rem]'>
             <p>Selected <br /> projects</p>
             <p className='text-[#717171]'>Our works are a blend of innovative thinking and practical <br /> solutions, ensuring they are both unique and effective.</p>
+            <div>
+                <img src="./images/Frame1.svg" alt="" />
+                <div>
+                    <p className='text-[22px] font-[500] mb-10'>01. Havilah Blockchain Studios</p>
+                    <div className='mb-10'>
+                        <p className='text-[#8E8E8E]'>Year:</p>
+                        <p className='font-[500]'>2022</p>
+                    </div>
+                    <div>
+                        <p className='text-[#8E8E8E]'>Client:</p>
+                        <p className='font-[500]'>2022</p>
+                    </div>
+                    <div>
+                        <p className='text-[#8E8E8E]'>Project Summary:</p>
+                        <p>
+                            Exalt Studio has partnered with ethos, an innovative Canadian company committed to redefining customer engagement for brands. Our mission was to develop the MVP (Minimum Viable Product) for ethos, crafting a platform that seamlessly brings together diverse benefits for customers under one digital roof.
+                        </p>
+                        <p>
+                            By creating a platform that emphasises ease of use and visual appeal, we aimed to position ethos as a market leader from the get-go. This required a delicate balance of technical functionality and creative design. 
+                        </p>
+                        <p>
+                            With the groundwork laid by Exalt Studio, ethos is well-positioned to lead in the creation of meaningful, engaging customer experiences, solidifying their place as a market leader in the digital loyalty landscape.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
   )
