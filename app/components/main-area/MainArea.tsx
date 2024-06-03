@@ -73,7 +73,7 @@ const MainArea = () => {
         <div className='bg-[#0F0A3E] pt-[10rem] pb-[12rem] mt-[7rem]'>
             <div className='w-[70%] mx-auto'>
                 <p className='text-[#6FFF51] font-[500] text-[64px] tracking-[-1.6px] leading-[77px]'>Havilah Blockchain Studios is your one-stop Web-3 shop.</p>
-                <p className='text-white mt-8'>Experience personalized guidance tailored to your startup's unique goals. Our dedicated team will meticulously analyze your project requirements, crafting customized recommendations to harness the full potential of blockchain technology for your business success.</p>
+                <p className='text-white mt-8'>Experience personalized guidance tailored to your startup&apos;s unique goals. Our dedicated team will meticulously analyze your project requirements, crafting customized recommendations to harness the full potential of blockchain technology for your business success.</p>
             </div>
         </div>
         <div className='text-left px-[50px] mt-[5rem]'>
@@ -97,7 +97,7 @@ const MainArea = () => {
                             Exalt Studio has partnered with ethos, an innovative Canadian company committed to redefining customer engagement for brands. Our mission was to develop the MVP (Minimum Viable Product) for ethos, crafting a platform that seamlessly brings together diverse benefits for customers under one digital roof.
                         </p>
                         <p className='my-5 leading-[24px] tracking-[-0.6px]'>
-                            By creating a platform that emphasises ease of use and visual appeal, we aimed to position ethos as a market leader from the get-go. This required a delicate balance of technical functionality and creative design. 
+                            By creating a platform that emphasises ease of use and visual appeal, we aimed to position ethos as a market leader from the get-go. This required a delicate balance of technical functionality and creative design.
                         </p>
                         <p className='leading-[24px] tracking-[-0.6px]'>
                             With the groundwork laid by Exalt Studio, ethos is well-positioned to lead in the creation of meaningful, engaging customer experiences, solidifying their place as a market leader in the digital loyalty landscape.
@@ -124,7 +124,7 @@ const MainArea = () => {
                             Exalt Studio has partnered with ethos, an innovative Canadian company committed to redefining customer engagement for brands. Our mission was to develop the MVP (Minimum Viable Product) for ethos, crafting a platform that seamlessly brings together diverse benefits for customers under one digital roof.
                         </p>
                         <p className='my-5 leading-[24px] tracking-[-0.6px]'>
-                            By creating a platform that emphasises ease of use and visual appeal, we aimed to position ethos as a market leader from the get-go. This required a delicate balance of technical functionality and creative design. 
+                            By creating a platform that emphasises ease of use and visual appeal, we aimed to position ethos as a market leader from the get-go. This required a delicate balance of technical functionality and creative design.
                         </p>
                         <p className='leading-[24px] tracking-[-0.6px]'>
                             With the groundwork laid by Exalt Studio, ethos is well-positioned to lead in the creation of meaningful, engaging customer experiences, solidifying their place as a market leader in the digital loyalty landscape.
