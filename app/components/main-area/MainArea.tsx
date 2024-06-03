@@ -77,10 +77,10 @@ const MainArea = () => {
             </div>
         </div>
         <div className='text-left px-[50px] mt-[5rem]'>
-            <p>Selected <br /> projects</p>
+            <p className='text-[32px] font-[500] leading-[30px] mb-3'>Selected <br /> projects</p>
             <p className='text-[#717171]'>Our works are a blend of innovative thinking and practical <br /> solutions, ensuring they are both unique and effective.</p>
-            <div>
-                <img src="./images/Frame1.svg" alt="" />
+            <div className='flex items-start gap-8 mt-16'>
+                <img src="./images/Frame1.svg" className='w-[70%]' alt="" />
                 <div>
                     <p className='text-[22px] font-[500] mb-10'>01. Havilah Blockchain Studios</p>
                     <div className='mb-10'>
@@ -91,15 +91,42 @@ const MainArea = () => {
                         <p className='text-[#8E8E8E]'>Client:</p>
                         <p className='font-[500]'>2022</p>
                     </div>
-                    <div>
-                        <p className='text-[#8E8E8E]'>Project Summary:</p>
-                        <p>
+                    <div className='mt-10'>
+                        <p className='text-[#8E8E8E] mb-5'>Project Summary:</p>
+                        <p className='leading-[24px] tracking-[-0.6px]'>
                             Exalt Studio has partnered with ethos, an innovative Canadian company committed to redefining customer engagement for brands. Our mission was to develop the MVP (Minimum Viable Product) for ethos, crafting a platform that seamlessly brings together diverse benefits for customers under one digital roof.
                         </p>
-                        <p>
+                        <p className='my-5 leading-[24px] tracking-[-0.6px]'>
                             By creating a platform that emphasises ease of use and visual appeal, we aimed to position ethos as a market leader from the get-go. This required a delicate balance of technical functionality and creative design. 
                         </p>
-                        <p>
+                        <p className='leading-[24px] tracking-[-0.6px]'>
+                            With the groundwork laid by Exalt Studio, ethos is well-positioned to lead in the creation of meaningful, engaging customer experiences, solidifying their place as a market leader in the digital loyalty landscape.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div className='flex flex-row-reverse items-start gap-8 mt-20'>
+                <img src="./images/Frame2.svg" className='w-[70%]' alt="" />
+                <div>
+                    <p className='text-[22px] font-[500] mb-10'>02. Havilah Blockchain Studios</p>
+                    <div className='mb-10'>
+                        <p className='text-[#8E8E8E]'>Year:</p>
+                        <p className='font-[500]'>2022</p>
+                    </div>
+                    <div>
+                        <p className='text-[#8E8E8E]'>Client:</p>
+                        <p className='font-[500]'>2022</p>
+                    </div>
+                    <div className='mt-10'>
+                        <p className='text-[#8E8E8E] mb-5'>Project Summary:</p>
+                        <p className='leading-[24px] tracking-[-0.6px]'>
+                            Exalt Studio has partnered with ethos, an innovative Canadian company committed to redefining customer engagement for brands. Our mission was to develop the MVP (Minimum Viable Product) for ethos, crafting a platform that seamlessly brings together diverse benefits for customers under one digital roof.
+                        </p>
+                        <p className='my-5 leading-[24px] tracking-[-0.6px]'>
+                            By creating a platform that emphasises ease of use and visual appeal, we aimed to position ethos as a market leader from the get-go. This required a delicate balance of technical functionality and creative design. 
+                        </p>
+                        <p className='leading-[24px] tracking-[-0.6px]'>
                             With the groundwork laid by Exalt Studio, ethos is well-positioned to lead in the creation of meaningful, engaging customer experiences, solidifying their place as a market leader in the digital loyalty landscape.
                         </p>
                     </div>
