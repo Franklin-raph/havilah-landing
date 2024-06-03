@@ -3,7 +3,7 @@ import React from 'react'
 const MainArea = () => {
   return (
     <div className='text-center'>
-        <p className='text-[22px]'>Havilah Blockchain Studios →️ <span className="text-transparent text-gradient">Designs, Builds and Scales</span> </p>
+        <p className='text-[22px]'>Havilah Blockchain Studios →️ 👨🏻‍💻 <span className="text-transparent text-gradient">Designs, Builds and Scales</span> </p>
         <p className='text-[64px] font-[500] w-[90%] mx-auto mt-4 leading-[68.224px] tracking-[-3.2px]'>Web3 Startups using cutting-edge Solutions that fit your budget.</p>
         <p className='text-[#717171] text-[28px] w-[65%] mt-5 mx-auto tracking-[-1.4px]'>Get your idea from paper to web or server in the shortest possible time using the most scalable architecture.</p>
         <button className='bg-[#0F0A3E] px-[15px] rounded-full py-2 text-white mt-[4rem]'>Book a Call</button>
