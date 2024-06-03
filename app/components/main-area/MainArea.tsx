@@ -145,9 +145,9 @@ const MainArea = () => {
             </div>
         </div>
         
-        <div className='px-[30px] mt-[8rem]'>
+        <div className='px-[20px] md:px-[30px] mt-[8rem]'>
             <div className='flex items-center justify-between'>
-                <p className='text-[28px] leading-[30px] mb-7'>Customer <br /> Review </p>
+                <p className='text-[18px] md:text-[28px] md:leading-[30px] mb-7'>Customer <br /> Review </p>
                 <div className='flex items-center gap-6 bg-white rounded-full px-4 py-2'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" cursor='pointer'>
                         <path d="M13 5H7C6.46957 5 5.96086 5.21071 5.58579 5.58579C5.21071 5.96086 5 6.46957 5 7V13C5 13.5304 5.21071 14.0391 5.58579 14.4142C5.96086 14.7893 6.46957 15 7 15H13C13.5304 15 14.0391 14.7893 14.4142 14.4142C14.7893 14.0391 15 13.5304 15 13V7C15 6.46957 14.7893 5.96086 14.4142 5.58579C14.0391 5.21071 13.5304 5 13 5ZM13 13H7V7H13V13ZM25 5H19C18.4696 5 17.9609 5.21071 17.5858 5.58579C17.2107 5.96086 17 6.46957 17 7V13C17 13.5304 17.2107 14.0391 17.5858 14.4142C17.9609 14.7893 18.4696 15 19 15H25C25.5304 15 26.0391 14.7893 26.4142 14.4142C26.7893 14.0391 27 13.5304 27 13V7C27 6.46957 26.7893 5.96086 26.4142 5.58579C26.0391 5.21071 25.5304 5 25 5ZM25 13H19V7H25V13ZM13 17H7C6.46957 17 5.96086 17.2107 5.58579 17.5858C5.21071 17.9609 5 18.4696 5 19V25C5 25.5304 5.21071 26.0391 5.58579 26.4142C5.96086 26.7893 6.46957 27 7 27H13C13.5304 27 14.0391 26.7893 14.4142 26.4142C14.7893 26.0391 15 25.5304 15 25V19C15 18.4696 14.7893 17.9609 14.4142 17.5858C14.0391 17.2107 13.5304 17 13 17ZM13 25H7V19H13V25ZM25 17H19C18.4696 17 17.9609 17.2107 17.5858 17.5858C17.2107 17.9609 17 18.4696 17 19V25C17 25.5304 17.2107 26.0391 17.5858 26.4142C17.9609 26.7893 18.4696 27 19 27H25C25.5304 27 26.0391 26.7893 26.4142 26.4142C26.7893 26.0391 27 25.5304 27 25V19C27 18.4696 26.7893 17.9609 26.4142 17.5858C26.0391 17.2107 25.5304 17 25 17ZM25 25H19V19H25V25Z" fill="#03001D"/>
@@ -205,8 +205,8 @@ const MainArea = () => {
                 </div>
             </div>
 
-            <div className='flex items-start gap-[1rem]'>
-                <div className='w-[33%]'>
+            <div className='flex items-start gap-[1rem] flex-col md:flex-row'>
+                <div className='md:w-[33%]'>
                     <p className='w-[90%]'>
                         Get a 50% discount as a first-time customer on any of our services by subscribing to our newsletter.
                     </p>
@@ -254,7 +254,7 @@ const MainArea = () => {
                     </div>
                 </div>
 
-                <div className='w-[33%]'>
+                <div className='md:w-[33%] w-full'>
                     <div className="bg-white p-6 rounded-[16px] shadow-sm">
                         <h2 className="text-[#004FFF] text-[24px]">Subscription</h2>
                         <p className="text-[#171717]">Insights & actionable growth strategies</p>
@@ -303,8 +303,8 @@ const MainArea = () => {
                     </div>
                 </div>
 
-                <div className='w-[33%]'>
-                    <div className="bg-white p-6 rounded-[16px] shadow-sm mt-[10rem]">
+                <div className='md:w-[33%] w-full'>
+                    <div className="bg-white p-6 rounded-[16px] shadow-sm md:mt-[10rem]">
                         <h2 className="text-[#004FFF] text-[24px]">Fixed Price</h2>
                         <p className="text-[#171717]">Perfect for comprehensive projects</p>
                         <div className="mt-[4rem]">
@@ -366,7 +366,7 @@ const MainArea = () => {
                     </svg>
                 </div>
             </div>
-            <div className="flex items-center justify-center p-4 gap-10">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-center justify-center p-4 gap-10">
                 <BlogCard 
                     date="12, May 2022" 
                     category="Community" 
