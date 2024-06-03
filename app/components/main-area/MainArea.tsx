@@ -192,7 +192,7 @@ const MainArea = () => {
             </div>
         </div>
 
-        <div className='px-[30px] mt-[8rem]'>
+        <div className='px-[20px] md:px-[30px] mt-[8rem]'>
             <div className='flex items-center justify-between mb-7'>
                 <p className='text-[28px] leading-[30px]'>Pricing</p>
                 <div className='flex items-center gap-6 bg-white rounded-full px-4 py-2'>
@@ -354,7 +354,7 @@ const MainArea = () => {
             </div>
         </div>
 
-        <div className='px-[30px] mt-[8rem]'>
+        <div className='md:px-[30px] px-[20px] mt-[8rem]'>
             <div className='flex items-center justify-between'>
                 <p className='text-[28px] leading-[30px] mb-7'>Havilah Blog</p>
                 <div className='flex items-center gap-6 bg-white rounded-full px-4 py-2'>
@@ -366,7 +366,7 @@ const MainArea = () => {
                     </svg>
                 </div>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-center justify-center p-4 gap-10">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-center justify-center md:p-4 py-4 gap-10">
                 <BlogCard 
                     date="12, May 2022" 
                     category="Community" 
