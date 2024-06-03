@@ -13,8 +13,8 @@ const MainArea = () => {
     <div>
         <div className='text-center'>
             <p className='text-[18px] md:text-[22px] px-[20px]'>Havilah Blockchain Studios →️ 👨🏻‍💻 <span className="text-transparent text-gradient">Designs, Builds and Scales</span> </p>
-            <p className='text-[32px] md:text-[40px] lg:text-[64px] font-[500] w-[90%] mx-auto mt-4 md:leading-[68.224px] md:tracking-[-3.2px]'>Web3 Startups using cutting-edge Solutions that fit your budget.</p>
-            <p className='text-[#717171] md:text-[28px] text-[18px] w-[65%] mt-5 mx-auto tracking-[-1.4px]'>Get your idea from paper to web or server in the shortest possible time using the most scalable architecture.</p>
+            <p className='text-[32px] md:text-[40px] lg:text-[64px] font-[500] w-[95%] mx-auto mt-4 md:leading-[68.224px] md:tracking-[-3.2px]'>Web3 Startups using cutting-edge Solutions that fit your budget.</p>
+            <p className='text-[#717171] md:text-[28px] text-[18px] md:w-[65%] w-[90%] mt-5 mx-auto tracking-[-1.4px]'>Get your idea from paper to web or server in the shortest possible time using the most scalable architecture.</p>
             <button className='bg-[#0F0A3E] px-[15px] rounded-full py-2 text-white mt-[4rem]'>Book a Call</button>
         </div>
         <div className='text-start md:px-[50px] px-[25px] mt-[10rem]'>
@@ -81,13 +81,13 @@ const MainArea = () => {
             </div>
         </div>
         <div className='bg-[#0F0A3E] pt-[10rem] pb-[12rem] mt-[7rem] text-center'>
-            <div className='w-[70%] mx-auto'>
-                <p className='text-[#6FFF51] font-[500] text-[32px] md:text-[40px] lg:text-[64px] tracking-[-1.6px] md:leading-[77px]'>Havilah Blockchain Studios is your one-stop Web-3 shop.</p>
+            <div className='md:w-[70%] md:mx-auto px-[10px]'>
+                <p className='text-[#6FFF51] font-[500] text-[28px] md:text-[40px] lg:text-[64px] tracking-[-1.6px] md:leading-[77px]'>Havilah Blockchain Studios is your one-stop Web-3 shop.</p>
                 <p className='text-white mt-8'>Experience personalized guidance tailored to your startup&apos;s unique goals. Our dedicated team will meticulously analyze your project requirements, crafting customized recommendations to harness the full potential of blockchain technology for your business success.</p>
             </div>
         </div>
 
-        <div className='text-left px-[50px] mt-[5rem]'>
+        <div className='text-left px-[15px] md:px-[50px] mt-[5rem]'>
             <p className='text-[32px] font-[500] leading-[30px] mb-3'>Selected <br /> projects</p>
             <p className='text-[#717171]'>Our works are a blend of innovative thinking and practical <br /> solutions, ensuring they are both unique and effective.</p>
             <div className='flex items-start gap-8 mt-16 flex-col lg:flex-row'>
