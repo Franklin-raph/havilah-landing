@@ -4,6 +4,9 @@
 
 @import url('@fontsource/space-grotesk/index.css');
 
+html, body{
+  overflow-x: hidden;
+}
 
 * {
   font-family: 'Space Grotesk', sans-serif;

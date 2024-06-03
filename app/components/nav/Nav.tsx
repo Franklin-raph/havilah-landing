@@ -3,11 +3,16 @@
 import React, { useEffect, useState } from 'react'
 import { HiMiniChevronDown } from "react-icons/hi2";
 import Link from 'next/link';
+import { FiMenu } from "react-icons/fi";
+import { IoClose } from "react-icons/io5";
+
+
 
 
 const Nav = () => {
 
     const [time, setTime] = useState<string>('');
+    const [openNav, setOpenNav] = useState<boolean>(false)
 
     useEffect(() => {
         const updateTime = () => {
@@ -30,13 +35,14 @@ const Nav = () => {
   return (
     <div className='bg-white py-[25px] px-[50px] flex justify-between items-center'>
         <img src="./images/Logo.svg" alt="" />
-        <div>
+        <div className='hidden xl:block'>
             <span className='text-[#0C0C0C] font-[500]'>{time}</span>
             <span className='text-[#555555] mx-1'>Est</span>
             <span>⚡️</span>
             <span className='text-[#0073DD]'>Lagos, Nigeria</span>
         </div>
-        <ul className='flex justify-between items-center gap-5 text-[#555]'>
+        <FiMenu onClick={() => setOpenNav(true)} className='cursor-pointer xl:hidden block text-[22px]'/>
+        <ul className='xl:flex justify-between items-center gap-5 text-[#555] hidden'>
             <li className='flex items-center gap-1 cursor-pointer'>
                 <p>Services</p>
                 <HiMiniChevronDown />
@@ -66,6 +72,49 @@ const Nav = () => {
                 </Link>
             </li>
         </ul>
+        {
+            openNav &&
+            <ul className='flex flex-col top-0 bg-[#F2F3F4] w-full left-0 justify-start items-center gap-12 text-[#555] fixed pt-5 pb-10 px-9 h-full'>
+                <div className='flex items-center justify-between w-full'>
+                    <img src="./images/Logo.svg" alt="" />
+                    <IoClose className='text-[25px] cursor-pointer' onClick={() => setOpenNav(false)}/>
+                </div>
+                <li className='flex items-center gap-1 cursor-pointer justify-between w-full border-b pb-3'>
+                    <p>Services</p>
+                    <HiMiniChevronDown className='text-[25px]'/>
+                </li>
+                <li className='flex items-center gap-1 justify-between w-full border-b pb-3'>
+                    <Link href="/">
+                        Projects
+                    </Link>
+                </li>
+                <li className='flex items-center gap-1 cursor-pointer justify-between w-full border-b pb-3'>
+                    <p>Company</p>
+                    <HiMiniChevronDown className='text-[25px]'/>
+                </li>
+                <li className='flex items-center gap-1 justify-between w-full border-b pb-3'>
+                    <Link href="/">
+                        Blog
+                    </Link>
+                </li>
+                <li className='flex items-center gap-1 justify-between w-full border-b pb-3'>
+                    <Link href="/">
+                        Accelerator
+                    </Link>
+                </li>
+                <li className='flex items-center gap-1 justify-between w-full border-b pb-3'>
+                    <Link href="/">
+                        Contact Us
+                    </Link>
+                </li>
+                <div className='absolute bottom-[2rem]'>
+                    <span className='text-[#0C0C0C] font-[500]'>{time}</span>
+                    <span className='text-[#555555] mx-1'>Est</span>
+                    <span>⚡️</span>
+                    <span className='text-[#0073DD]'>Lagos, Nigeria</span>
+                </div>
+            </ul>
+        }
     </div>
   )
 }
