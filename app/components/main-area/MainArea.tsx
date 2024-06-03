@@ -1,5 +1,9 @@
 
+import Link from 'next/link';
 import TestimonialCard from '../testimonial-card/TestimonialCard'
+import { FaCircleCheck } from "react-icons/fa6";
+import BlogCard from '../blog-card/BlogCard';
+
 
 
 const MainArea = () => {
@@ -176,6 +180,218 @@ const MainArea = () => {
                     imageUrl="https://via.placeholder.com/40" // Replace with the actual image URL
                 />
             </div>
+            <div className='mt-[5rem] flex items-center gap-10'>
+                <div className='flex items-end gap-[2px]'>
+                    <p className='font-[600] text-[30px]'>42</p>
+                    <p className='text-[#A5A5A5]'>Completed projects</p>
+                </div>
+                <div className='flex items-end gap-[2px]'>
+                    <p className='font-[600] text-[30px]'>8</p>
+                    <p className='text-[#A5A5A5]'>Awards & features</p>
+                </div>
+            </div>
+        </div>
+
+        <div className='px-[30px] min-h-screen mt-[8rem]'>
+            <div className='flex items-center justify-between mb-7'>
+                <p className='text-[28px] leading-[30px]'>Pricing</p>
+                <div className='flex items-center gap-6 bg-white rounded-full px-4 py-2'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" cursor='pointer'>
+                        <path d="M13 5H7C6.46957 5 5.96086 5.21071 5.58579 5.58579C5.21071 5.96086 5 6.46957 5 7V13C5 13.5304 5.21071 14.0391 5.58579 14.4142C5.96086 14.7893 6.46957 15 7 15H13C13.5304 15 14.0391 14.7893 14.4142 14.4142C14.7893 14.0391 15 13.5304 15 13V7C15 6.46957 14.7893 5.96086 14.4142 5.58579C14.0391 5.21071 13.5304 5 13 5ZM13 13H7V7H13V13ZM25 5H19C18.4696 5 17.9609 5.21071 17.5858 5.58579C17.2107 5.96086 17 6.46957 17 7V13C17 13.5304 17.2107 14.0391 17.5858 14.4142C17.9609 14.7893 18.4696 15 19 15H25C25.5304 15 26.0391 14.7893 26.4142 14.4142C26.7893 14.0391 27 13.5304 27 13V7C27 6.46957 26.7893 5.96086 26.4142 5.58579C26.0391 5.21071 25.5304 5 25 5ZM25 13H19V7H25V13ZM13 17H7C6.46957 17 5.96086 17.2107 5.58579 17.5858C5.21071 17.9609 5 18.4696 5 19V25C5 25.5304 5.21071 26.0391 5.58579 26.4142C5.96086 26.7893 6.46957 27 7 27H13C13.5304 27 14.0391 26.7893 14.4142 26.4142C14.7893 26.0391 15 25.5304 15 25V19C15 18.4696 14.7893 17.9609 14.4142 17.5858C14.0391 17.2107 13.5304 17 13 17ZM13 25H7V19H13V25ZM25 17H19C18.4696 17 17.9609 17.2107 17.5858 17.5858C17.2107 17.9609 17 18.4696 17 19V25C17 25.5304 17.2107 26.0391 17.5858 26.4142C17.9609 26.7893 18.4696 27 19 27H25C25.5304 27 26.0391 26.7893 26.4142 26.4142C26.7893 26.0391 27 25.5304 27 25V19C27 18.4696 26.7893 17.9609 26.4142 17.5858C26.0391 17.2107 25.5304 17 25 17ZM25 25H19V19H25V25Z" fill="#03001D"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" cursor='pointer'>
+                        <path d="M10 8C10 7.73478 10.1054 7.48043 10.2929 7.29289C10.4804 7.10536 10.7348 7 11 7H27C27.2652 7 27.5196 7.10536 27.7071 7.29289C27.8946 7.48043 28 7.73478 28 8C28 8.26522 27.8946 8.51957 27.7071 8.70711C27.5196 8.89464 27.2652 9 27 9H11C10.7348 9 10.4804 8.89464 10.2929 8.70711C10.1054 8.51957 10 8.26522 10 8ZM27 15H11C10.7348 15 10.4804 15.1054 10.2929 15.2929C10.1054 15.4804 10 15.7348 10 16C10 16.2652 10.1054 16.5196 10.2929 16.7071C10.4804 16.8946 10.7348 17 11 17H27C27.2652 17 27.5196 16.8946 27.7071 16.7071C27.8946 16.5196 28 16.2652 28 16C28 15.7348 27.8946 15.4804 27.7071 15.2929C27.5196 15.1054 27.2652 15 27 15ZM27 23H11C10.7348 23 10.4804 23.1054 10.2929 23.2929C10.1054 23.4804 10 23.7348 10 24C10 24.2652 10.1054 24.5196 10.2929 24.7071C10.4804 24.8946 10.7348 25 11 25H27C27.2652 25 27.5196 24.8946 27.7071 24.7071C27.8946 24.5196 28 24.2652 28 24C28 23.7348 27.8946 23.4804 27.7071 23.2929C27.5196 23.1054 27.2652 23 27 23ZM5.5 6.5C5.20333 6.5 4.91332 6.58797 4.66665 6.7528C4.41997 6.91762 4.22771 7.15189 4.11418 7.42597C4.00065 7.70006 3.97094 8.00166 4.02882 8.29264C4.0867 8.58361 4.22956 8.85088 4.43934 9.06066C4.64912 9.27044 4.91639 9.4133 5.20737 9.47118C5.49834 9.52906 5.79994 9.49935 6.07403 9.38582C6.34811 9.27229 6.58238 9.08003 6.74721 8.83335C6.91203 8.58668 7 8.29667 7 8C7 7.60218 6.84197 7.22064 6.56066 6.93934C6.27936 6.65804 5.89783 6.5 5.5 6.5ZM5.5 14.5C5.20333 14.5 4.91332 14.588 4.66665 14.7528C4.41997 14.9176 4.22771 15.1519 4.11418 15.426C4.00065 15.7001 3.97094 16.0017 4.02882 16.2926C4.0867 16.5836 4.22956 16.8509 4.43934 17.0607C4.64912 17.2704 4.91639 17.4133 5.20737 17.4712C5.49834 17.5291 5.79994 17.4993 6.07403 17.3858C6.34811 17.2723 6.58238 17.08 6.74721 16.8334C6.91203 16.5867 7 16.2967 7 16C7 15.6022 6.84197 15.2206 6.56066 14.9393C6.27936 14.658 5.89783 14.5 5.5 14.5ZM5.5 22.5C5.20333 22.5 4.91332 22.588 4.66665 22.7528C4.41997 22.9176 4.22771 23.1519 4.11418 23.426C4.00065 23.7001 3.97094 24.0017 4.02882 24.2926C4.0867 24.5836 4.22956 24.8509 4.43934 25.0607C4.64912 25.2704 4.91639 25.4133 5.20737 25.4712C5.49834 25.5291 5.79994 25.4993 6.07403 25.3858C6.34811 25.2723 6.58238 25.08 6.74721 24.8334C6.91203 24.5867 7 24.2967 7 24C7 23.6022 6.84197 23.2206 6.56066 22.9393C6.27936 22.658 5.89783 22.5 5.5 22.5Z" fill="#888888"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div className='flex items-start gap-[1rem]'>
+                <div className='w-[33%]'>
+                    <p className='w-[90%]'>
+                        Get a 50% discount as a first-time customer on any of our services by subscribing to our newsletter.
+                    </p>
+                    <div className="bg-white p-6 rounded-[16px] shadow-sm mt-[5rem]">
+                        <h2 className="text-[#004FFF] text-[24px]">Full code & UX review</h2>
+                        <p className="text-[#171717]">Insights & actionable growth strategies</p>
+                        <div className="mt-[4rem]">
+                            <span className="text-[#A1A1A1]">starting at</span>
+                            <div className="text-[45px] font-extrabold mt-1 text-[#171717]">$1,500</div>
+                        </div>
+                        <ul className="mt-6 space-y-2">
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>Comprehensive review & audit</p>
+                            </li>
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>Performance & Usability Optimization</p>
+                            </li>
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>Actionable Recommendations</p>
+                            </li>
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>Codebase & Design Cleanup</p>
+                            </li>
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>Scalability & User Journey Assessment</p>
+                            </li>
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>1 - 1 consultation</p>
+                            </li>
+                        </ul>
+                        <div className="mt-8">
+                            <Link 
+                            href="#" 
+                            className="block text-center bg-[#004FFF] text-white py-2 px-4 rounded-md font-semibold hover:bg-blue-700 transition duration-300"
+                            >
+                            Book a Call
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='w-[33%]'>
+                    <div className="bg-white p-6 rounded-[16px] shadow-sm">
+                        <h2 className="text-[#004FFF] text-[24px]">Subscription</h2>
+                        <p className="text-[#171717]">Insights & actionable growth strategies</p>
+                        <div className="mt-[4rem]">
+                            <span className="text-[#A1A1A1]">starting at</span>
+                            <div className="text-[45px] font-extrabold mt-1 text-[#171717]">$7,000</div>
+                        </div>
+                        <ul className="mt-6 space-y-2">
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>Dedicated development & design experts</p>
+                            </li>
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>No long-term commitment</p>
+                            </li>
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>Rapid Iterations & UI/UX enhancements</p>
+                            </li>
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>Extension of your team</p>
+                            </li>
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>Continuous Integration & Design System</p>
+                            </li>
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>Weekly project updates</p>
+                            </li>
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>Weekly meetings</p>
+                            </li>
+                        </ul>
+                        <div className="mt-8">
+                            <Link 
+                            href="#" 
+                            className="block text-center bg-[#004FFF] text-white py-2 px-4 rounded-md font-semibold hover:bg-blue-700 transition duration-300"
+                            >
+                            Book a Call
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='w-[33%]'>
+                    <div className="bg-white p-6 rounded-[16px] shadow-sm mt-[10rem]">
+                        <h2 className="text-[#004FFF] text-[24px]">Fixed Price</h2>
+                        <p className="text-[#171717]">Perfect for comprehensive projects</p>
+                        <div className="mt-[4rem]">
+                            <span className="text-[#A1A1A1]">starting at</span>
+                            <div className="text-[45px] font-extrabold mt-1 text-[#171717]">$15,000</div>
+                        </div>
+                        <ul className="mt-6 space-y-2">
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>Dedicated development & design experts</p>
+                            </li>
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>Discovery & Strategy Session</p>
+                            </li>
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>Extension of your team</p>
+                            </li>
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>End-to-end Development & UI/UX Process</p>
+                            </li>
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>Continuous Integration & Design System</p>
+                            </li>
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>Weekly project updates</p>
+                            </li>
+                            <li className="flex items-center text-gray-700 gap-[8px]">
+                                <FaCircleCheck />
+                                <p>Weekly meetings</p>
+                            </li>
+                        </ul>
+                        <div className="mt-8">
+                            <Link 
+                            href="#" 
+                            className="block text-center bg-[#004FFF] text-white py-2 px-4 rounded-md font-semibold hover:bg-blue-700 transition duration-300"
+                            >
+                            Book a Call
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className='px-[30px] min-h-screen mt-[8rem]'>
+            <div className='flex items-center justify-between'>
+                <p className='text-[28px] leading-[30px] mb-7'>Havilah Blog</p>
+                <div className='flex items-center gap-6 bg-white rounded-full px-4 py-2'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" cursor='pointer'>
+                        <path d="M13 5H7C6.46957 5 5.96086 5.21071 5.58579 5.58579C5.21071 5.96086 5 6.46957 5 7V13C5 13.5304 5.21071 14.0391 5.58579 14.4142C5.96086 14.7893 6.46957 15 7 15H13C13.5304 15 14.0391 14.7893 14.4142 14.4142C14.7893 14.0391 15 13.5304 15 13V7C15 6.46957 14.7893 5.96086 14.4142 5.58579C14.0391 5.21071 13.5304 5 13 5ZM13 13H7V7H13V13ZM25 5H19C18.4696 5 17.9609 5.21071 17.5858 5.58579C17.2107 5.96086 17 6.46957 17 7V13C17 13.5304 17.2107 14.0391 17.5858 14.4142C17.9609 14.7893 18.4696 15 19 15H25C25.5304 15 26.0391 14.7893 26.4142 14.4142C26.7893 14.0391 27 13.5304 27 13V7C27 6.46957 26.7893 5.96086 26.4142 5.58579C26.0391 5.21071 25.5304 5 25 5ZM25 13H19V7H25V13ZM13 17H7C6.46957 17 5.96086 17.2107 5.58579 17.5858C5.21071 17.9609 5 18.4696 5 19V25C5 25.5304 5.21071 26.0391 5.58579 26.4142C5.96086 26.7893 6.46957 27 7 27H13C13.5304 27 14.0391 26.7893 14.4142 26.4142C14.7893 26.0391 15 25.5304 15 25V19C15 18.4696 14.7893 17.9609 14.4142 17.5858C14.0391 17.2107 13.5304 17 13 17ZM13 25H7V19H13V25ZM25 17H19C18.4696 17 17.9609 17.2107 17.5858 17.5858C17.2107 17.9609 17 18.4696 17 19V25C17 25.5304 17.2107 26.0391 17.5858 26.4142C17.9609 26.7893 18.4696 27 19 27H25C25.5304 27 26.0391 26.7893 26.4142 26.4142C26.7893 26.0391 27 25.5304 27 25V19C27 18.4696 26.7893 17.9609 26.4142 17.5858C26.0391 17.2107 25.5304 17 25 17ZM25 25H19V19H25V25Z" fill="#03001D"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" cursor='pointer'>
+                        <path d="M10 8C10 7.73478 10.1054 7.48043 10.2929 7.29289C10.4804 7.10536 10.7348 7 11 7H27C27.2652 7 27.5196 7.10536 27.7071 7.29289C27.8946 7.48043 28 7.73478 28 8C28 8.26522 27.8946 8.51957 27.7071 8.70711C27.5196 8.89464 27.2652 9 27 9H11C10.7348 9 10.4804 8.89464 10.2929 8.70711C10.1054 8.51957 10 8.26522 10 8ZM27 15H11C10.7348 15 10.4804 15.1054 10.2929 15.2929C10.1054 15.4804 10 15.7348 10 16C10 16.2652 10.1054 16.5196 10.2929 16.7071C10.4804 16.8946 10.7348 17 11 17H27C27.2652 17 27.5196 16.8946 27.7071 16.7071C27.8946 16.5196 28 16.2652 28 16C28 15.7348 27.8946 15.4804 27.7071 15.2929C27.5196 15.1054 27.2652 15 27 15ZM27 23H11C10.7348 23 10.4804 23.1054 10.2929 23.2929C10.1054 23.4804 10 23.7348 10 24C10 24.2652 10.1054 24.5196 10.2929 24.7071C10.4804 24.8946 10.7348 25 11 25H27C27.2652 25 27.5196 24.8946 27.7071 24.7071C27.8946 24.5196 28 24.2652 28 24C28 23.7348 27.8946 23.4804 27.7071 23.2929C27.5196 23.1054 27.2652 23 27 23ZM5.5 6.5C5.20333 6.5 4.91332 6.58797 4.66665 6.7528C4.41997 6.91762 4.22771 7.15189 4.11418 7.42597C4.00065 7.70006 3.97094 8.00166 4.02882 8.29264C4.0867 8.58361 4.22956 8.85088 4.43934 9.06066C4.64912 9.27044 4.91639 9.4133 5.20737 9.47118C5.49834 9.52906 5.79994 9.49935 6.07403 9.38582C6.34811 9.27229 6.58238 9.08003 6.74721 8.83335C6.91203 8.58668 7 8.29667 7 8C7 7.60218 6.84197 7.22064 6.56066 6.93934C6.27936 6.65804 5.89783 6.5 5.5 6.5ZM5.5 14.5C5.20333 14.5 4.91332 14.588 4.66665 14.7528C4.41997 14.9176 4.22771 15.1519 4.11418 15.426C4.00065 15.7001 3.97094 16.0017 4.02882 16.2926C4.0867 16.5836 4.22956 16.8509 4.43934 17.0607C4.64912 17.2704 4.91639 17.4133 5.20737 17.4712C5.49834 17.5291 5.79994 17.4993 6.07403 17.3858C6.34811 17.2723 6.58238 17.08 6.74721 16.8334C6.91203 16.5867 7 16.2967 7 16C7 15.6022 6.84197 15.2206 6.56066 14.9393C6.27936 14.658 5.89783 14.5 5.5 14.5ZM5.5 22.5C5.20333 22.5 4.91332 22.588 4.66665 22.7528C4.41997 22.9176 4.22771 23.1519 4.11418 23.426C4.00065 23.7001 3.97094 24.0017 4.02882 24.2926C4.0867 24.5836 4.22956 24.8509 4.43934 25.0607C4.64912 25.2704 4.91639 25.4133 5.20737 25.4712C5.49834 25.5291 5.79994 25.4993 6.07403 25.3858C6.34811 25.2723 6.58238 25.08 6.74721 24.8334C6.91203 24.5867 7 24.2967 7 24C7 23.6022 6.84197 23.2206 6.56066 22.9393C6.27936 22.658 5.89783 22.5 5.5 22.5Z" fill="#888888"/>
+                    </svg>
+                </div>
+            </div>
+            <div className="flex items-center justify-center p-4 gap-10">
+                <BlogCard 
+                    date="12, May 2022" 
+                    category="Community" 
+                    title="Response to ACPR&apos;s Discussion Paper Decentralised or Disintermediated Finance: What Regulatory Response" 
+                    imageSrc="./images/blog-image.svg" // Replace with your image path
+                    link="#"
+                />
+                <BlogCard 
+                    date="12, May 2022" 
+                    category="blog" 
+                    title="Response to ACPR&apos;s Discussion Paper Decentralised or Disintermediated Finance: What Regulatory Response" 
+                    imageSrc="./images/blog-image2.svg" // Replace with your image path
+                    link="#"
+                />
+                <BlogCard 
+                    date="12, May 2022" 
+                    category="In Press" 
+                    title="Response to ACPR&apos;s Discussion Paper Decentralised or Disintermediated Finance: What Regulatory Response" 
+                    imageSrc="./images/blog-image3.svg" // Replace with your image path
+                    link="#"
+                />
+            </div>
+            <p className='text-center mt-[5rem] cursor-pointer'>Read More Articles</p>
+            {/* <div className="bg-gray-100 flex items-center gap-[1rem] justify-center">
+            </div> */}
         </div>
     </div>
   )
