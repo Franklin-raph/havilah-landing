@@ -389,9 +389,31 @@ const MainArea = () => {
                     link="#"
                 />
             </div>
-            <p className='text-center mt-[5rem] cursor-pointer'>Read More Articles</p>
+            <p className='text-center mt-[2rem] cursor-pointer'>Read More Articles</p>
             {/* <div className="bg-gray-100 flex items-center gap-[1rem] justify-center">
             </div> */}
+        </div>
+        <div className='px-[50px] mt-[5rem]'>
+            <div className="relative h-[55vh] flex items-end justify-between w-full bg-gray-100 p-6 rounded-[16px] shadow-lg overflow-hidden">
+                <img 
+                    src="./images/news-letter.png" // Replace with your image path
+                    alt="Typewriter"
+                    className="absolute inset-0 w-full h-full object-contain"
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-transparent opacity-50"></div>
+                <div className="relative z-10 p-8 bg-white bg-opacity-[95%] w-[50%] rounded-[16px] ml-auto">
+                    {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-transparent opacity-50"></div> */}
+                    <p className="text-sm text-green-600 font-semibold">STAY UP TO DATE</p>
+                    <h2 className="text-2xl font-[500] text-gray-800">Get the Havilah Newsletter</h2>
+                    <div className="mt-4 flex items-center">
+                        <input
+                            type="email"
+                            placeholder="Enter your email"
+                            className="p-2 border border-gray-300 rounded-full focus:outline-none w-full bg-transparent"
+                        />
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
   )
