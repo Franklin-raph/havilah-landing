@@ -194,7 +194,7 @@ const MainArea = () => {
 
         <div className='px-[20px] md:px-[30px] mt-[8rem]'>
             <div className='flex items-center justify-between mb-7'>
-                <p className='text-[28px] leading-[30px]'>Pricing</p>
+                <p className='text-[18px] leading-[30px] md:text-[28px]'>Pricing</p>
                 <div className='flex items-center gap-6 bg-white rounded-full px-4 py-2'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" cursor='pointer'>
                         <path d="M13 5H7C6.46957 5 5.96086 5.21071 5.58579 5.58579C5.21071 5.96086 5 6.46957 5 7V13C5 13.5304 5.21071 14.0391 5.58579 14.4142C5.96086 14.7893 6.46957 15 7 15H13C13.5304 15 14.0391 14.7893 14.4142 14.4142C14.7893 14.0391 15 13.5304 15 13V7C15 6.46957 14.7893 5.96086 14.4142 5.58579C14.0391 5.21071 13.5304 5 13 5ZM13 13H7V7H13V13ZM25 5H19C18.4696 5 17.9609 5.21071 17.5858 5.58579C17.2107 5.96086 17 6.46957 17 7V13C17 13.5304 17.2107 14.0391 17.5858 14.4142C17.9609 14.7893 18.4696 15 19 15H25C25.5304 15 26.0391 14.7893 26.4142 14.4142C26.7893 14.0391 27 13.5304 27 13V7C27 6.46957 26.7893 5.96086 26.4142 5.58579C26.0391 5.21071 25.5304 5 25 5ZM25 13H19V7H25V13ZM13 17H7C6.46957 17 5.96086 17.2107 5.58579 17.5858C5.21071 17.9609 5 18.4696 5 19V25C5 25.5304 5.21071 26.0391 5.58579 26.4142C5.96086 26.7893 6.46957 27 7 27H13C13.5304 27 14.0391 26.7893 14.4142 26.4142C14.7893 26.0391 15 25.5304 15 25V19C15 18.4696 14.7893 17.9609 14.4142 17.5858C14.0391 17.2107 13.5304 17 13 17ZM13 25H7V19H13V25ZM25 17H19C18.4696 17 17.9609 17.2107 17.5858 17.5858C17.2107 17.9609 17 18.4696 17 19V25C17 25.5304 17.2107 26.0391 17.5858 26.4142C17.9609 26.7893 18.4696 27 19 27H25C25.5304 27 26.0391 26.7893 26.4142 26.4142C26.7893 26.0391 27 25.5304 27 25V19C27 18.4696 26.7893 17.9609 26.4142 17.5858C26.0391 17.2107 25.5304 17 25 17ZM25 25H19V19H25V25Z" fill="#03001D"/>
@@ -210,7 +210,7 @@ const MainArea = () => {
                     <p className='w-[90%]'>
                         Get a 50% discount as a first-time customer on any of our services by subscribing to our newsletter.
                     </p>
-                    <div className="bg-white p-6 rounded-[16px] shadow-sm mt-[5rem]">
+                    <div className="bg-white p-6 rounded-[16px] shadow-sm mt-[5rem] border border-transparent hover:border hover:border-[#004FFF] transition duration-300">
                         <h2 className="text-[#004FFF] text-[24px]">Full code & UX review</h2>
                         <p className="text-[#171717]">Insights & actionable growth strategies</p>
                         <div className="mt-[4rem]">
@@ -255,7 +255,7 @@ const MainArea = () => {
                 </div>
 
                 <div className='md:w-[33%] w-full'>
-                    <div className="bg-white p-6 rounded-[16px] shadow-sm">
+                    <div className="bg-white p-6 rounded-[16px] shadow-sm border border-transparent hover:border hover:border-[#004FFF] transition duration-300">
                         <h2 className="text-[#004FFF] text-[24px]">Subscription</h2>
                         <p className="text-[#171717]">Insights & actionable growth strategies</p>
                         <div className="mt-[4rem]">
@@ -304,7 +304,7 @@ const MainArea = () => {
                 </div>
 
                 <div className='md:w-[33%] w-full'>
-                    <div className="bg-white p-6 rounded-[16px] shadow-sm md:mt-[10rem]">
+                    <div className="bg-white p-6 rounded-[16px] shadow-sm md:mt-[10rem] border border-transparent hover:border hover:border-[#004FFF] transition duration-300">
                         <h2 className="text-[#004FFF] text-[24px]">Fixed Price</h2>
                         <p className="text-[#171717]">Perfect for comprehensive projects</p>
                         <div className="mt-[4rem]">
@@ -355,8 +355,8 @@ const MainArea = () => {
         </div>
 
         <div className='md:px-[30px] px-[20px] mt-[8rem]'>
-            <div className='flex items-center justify-between'>
-                <p className='text-[28px] leading-[30px] mb-7'>Havilah Blog</p>
+            <div className='flex items-center justify-between mb-5'>
+                <p className='text-[18px] leading-[30px] md:text-[28px]'>Havilah Blog</p>
                 <div className='flex items-center gap-6 bg-white rounded-full px-4 py-2'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" cursor='pointer'>
                         <path d="M13 5H7C6.46957 5 5.96086 5.21071 5.58579 5.58579C5.21071 5.96086 5 6.46957 5 7V13C5 13.5304 5.21071 14.0391 5.58579 14.4142C5.96086 14.7893 6.46957 15 7 15H13C13.5304 15 14.0391 14.7893 14.4142 14.4142C14.7893 14.0391 15 13.5304 15 13V7C15 6.46957 14.7893 5.96086 14.4142 5.58579C14.0391 5.21071 13.5304 5 13 5ZM13 13H7V7H13V13ZM25 5H19C18.4696 5 17.9609 5.21071 17.5858 5.58579C17.2107 5.96086 17 6.46957 17 7V13C17 13.5304 17.2107 14.0391 17.5858 14.4142C17.9609 14.7893 18.4696 15 19 15H25C25.5304 15 26.0391 14.7893 26.4142 14.4142C26.7893 14.0391 27 13.5304 27 13V7C27 6.46957 26.7893 5.96086 26.4142 5.58579C26.0391 5.21071 25.5304 5 25 5ZM25 13H19V7H25V13ZM13 17H7C6.46957 17 5.96086 17.2107 5.58579 17.5858C5.21071 17.9609 5 18.4696 5 19V25C5 25.5304 5.21071 26.0391 5.58579 26.4142C5.96086 26.7893 6.46957 27 7 27H13C13.5304 27 14.0391 26.7893 14.4142 26.4142C14.7893 26.0391 15 25.5304 15 25V19C15 18.4696 14.7893 17.9609 14.4142 17.5858C14.0391 17.2107 13.5304 17 13 17ZM13 25H7V19H13V25ZM25 17H19C18.4696 17 17.9609 17.2107 17.5858 17.5858C17.2107 17.9609 17 18.4696 17 19V25C17 25.5304 17.2107 26.0391 17.5858 26.4142C17.9609 26.7893 18.4696 27 19 27H25C25.5304 27 26.0391 26.7893 26.4142 26.4142C26.7893 26.0391 27 25.5304 27 25V19C27 18.4696 26.7893 17.9609 26.4142 17.5858C26.0391 17.2107 25.5304 17 25 17ZM25 25H19V19H25V25Z" fill="#03001D"/>
@@ -389,22 +389,24 @@ const MainArea = () => {
                     link="#"
                 />
             </div>
-            <p className='text-center mt-[2rem] cursor-pointer'>Read More Articles</p>
+            <div className='text-center mt-[2rem]'>
+                <p className='cursor-pointer inline'>Read More Articles</p>
+            </div>
             {/* <div className="bg-gray-100 flex items-center gap-[1rem] justify-center">
             </div> */}
         </div>
-        <div className='px-[50px] mt-[5rem]'>
-            <div className="relative h-[55vh] flex items-end justify-between w-full bg-gray-100 p-6 rounded-[16px] shadow-lg overflow-hidden">
+        <div className='px-[20px] md:px-[50px] mt-[5rem]'>
+            <div className="relative h-[55vh] flex items-end justify-between w-full bg-gray-100 sm:p-6 p-3 rounded-[16px] shadow-lg overflow-hidden">
                 <img 
                     src="./images/news-letter.png" // Replace with your image path
                     alt="Typewriter"
                     className="absolute inset-0 w-full h-full object-contain"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-transparent opacity-50"></div>
-                <div className="relative z-10 p-8 bg-white bg-opacity-[95%] w-[50%] rounded-[16px] ml-auto">
+                <div className="relative z-10 p-4 sm:p-8 bg-white bg-opacity-[95%] w-full sm:w-[80%] md:w-[60%] rounded-[16px] ml-auto">
                     {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-transparent opacity-50"></div> */}
                     <p className="text-sm text-green-600 font-semibold">STAY UP TO DATE</p>
-                    <h2 className="text-2xl font-[500] text-gray-800">Get the Havilah Newsletter</h2>
+                    <h2 className="sm:text-2xl text-lg font-[500] text-gray-800">Get the Havilah Newsletter</h2>
                     <div className="mt-4 flex items-center">
                         <input
                             type="email"
