@@ -243,7 +243,7 @@ const MainArea = () => {
                             Havilah Blockchain Studio has partnered with Canadian brand ethos to create a Minimum Viable Product (MVP) for their platform, aiming to redefine customer engagement.
                         </p>
                         <p className='my-5 leading-[24px] tracking-[-0.6px]'>
-                            The platform aims to provide diverse benefits for customers, focusing on ease of use and visual appeal. Exalt Studio's groundwork will help ethos lead in creating meaningful customer experiences, solidifying their position as a market leader in digital loyalty.
+                            The platform aims to provide diverse benefits for customers, focusing on ease of use and visual appeal. Exalt Studio&apos;s groundwork will help ethos lead in creating meaningful customer experiences, solidifying their position as a market leader in digital loyalty.
                         </p>
                     </div>
                 </div>
