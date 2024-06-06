@@ -33,7 +33,7 @@ const Nav = () => {
 
     
   return (
-    <div className='bg-white py-[25px] md:px-[50px] px-[20px] flex justify-between items-center'>
+    <div className='bg-white py-[25px] md:px-[50px] px-[20px] flex justify-between items-center fixed w-full z-[9999]'>
         <img src="./images/Logo.svg" alt="" />
         <div className='hidden xl:block'>
             <span className='text-[#0C0C0C] font-[500]'>{time}</span>
