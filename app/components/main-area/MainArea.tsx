@@ -75,7 +75,7 @@ const MainArea = () => {
         <div className='text-center'>
             <p className='text-[18px] md:text-[22px] px-[20px]'>Havilah Blockchain Studios →️ 👨🏻‍💻 <span className="text-transparent text-gradient">Designs, Builds and Scales</span> </p>
             <p className='text-[32px] md:text-[40px] lg:text-[64px] font-[500] w-[95%] mx-auto mt-4 md:leading-[68.224px] md:tracking-[-3.2px]'>Web3 Startups using cutting-edge Solutions that fit your budget.</p>
-            <p className='text-[#717171] md:text-[28px] text-[18px] md:w-[65%] w-[90%] mt-5 mx-auto tracking-[-1.4px]'>Get your idea from paper to web or server in the shortest possible time using the most scalable architecture.</p>
+            <p className='text-[#717171] md:text-[28px] text-[18px] md:w-[65%] w-[90%] mt-5 mx-auto leading-[30px] tracking-[-1.4px]'>Get your idea from paper to web or server in the shortest possible time using the most scalable architecture.</p>
             <button className='bg-[#0F0A3E] px-[15px] rounded-full py-2 text-white mt-[4rem]'>Book a Call</button>
         </div>
         <div className='text-start md:px-[50px] px-[25px] mt-[10rem]'>
@@ -194,12 +194,12 @@ const MainArea = () => {
                     </SwiperSlide>
                 </Swiper>
         </div>
-        <div className='bg-[#0F0A3E] pt-[10rem] pb-[12rem] mt-[7rem] text-center'>
+        {/* <div className='bg-[#0F0A3E] pt-[10rem] pb-[12rem] mt-[7rem] text-center'>
             <div className='md:w-[70%] md:mx-auto px-[10px]'>
                 <p className='text-[#6FFF51] font-[500] text-[28px] md:text-[40px] lg:text-[64px] tracking-[-1.6px] md:leading-[77px]'>Havilah Blockchain Studios is your one-stop Web-3 shop.</p>
                 <p className='text-white mt-8'>Experience personalized guidance tailored to your startup&apos;s unique goals. Our dedicated team will meticulously analyze your project requirements, crafting customized recommendations to harness the full potential of blockchain technology for your business success.</p>
             </div>
-        </div>
+        </div> */}
 
         <div className='text-left px-[15px] md:px-[50px] mt-[5rem]'>
             <p className='text-[32px] font-[500] leading-[30px] mb-3'>Selected <br /> projects</p>
@@ -263,121 +263,100 @@ const MainArea = () => {
                 </div>
             </div>
             <div className="bg-gray-100 items-center gap-[1rem] justify-center">
-            <Swiper
-                autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                  }}
-                breakpoints={{
-                    0:{
+                <Swiper
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
+                    breakpoints={{
+                        0:{
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        640: {
                         slidesPerView: 1,
                         spaceBetween: 20,
-                    },
-                    640: {
-                      slidesPerView: 1,
-                      spaceBetween: 20,
-                    },
-                    768: {
-                      slidesPerView: 2,
-                      spaceBetween: 30,
-                    },
-                    1024: {
-                      slidesPerView: 3,
-                      spaceBetween: 30,
-                    },
-                  }}
-                loop={true}
-                slidesPerView={3}
-                spaceBetween={30}
-                navigation={{nextEl: ".next-button", prevEl:".prev-button"}}
-                pagination={false}
-                modules={[Navigation, Pagination, Autoplay]}
-                className="mySwiper"
-                >
-                <SwiperSlide>
-                    <TestimonialCard
-                        quote="Great taste for design and speed to deliver and iterate"
-                        description="Great UX designers share common traits: passion for helping customers, great taste for design and speed to deliver. Luke fulfilled all of those and more at DoorFeed where I was CTO. He had incredible capacity to adapt, from product design of a new mobile app to amazing landing pages."
-                        name="Juan Vicaria"
-                        title="Head of Software Engineering, 5Open"
-                        imageUrl="https://via.placeholder.com/40" // Replace with the actual image URL
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <TestimonialCard
-                        quote="Great taste for design and speed to deliver and iterate"
-                        description="Great UX designers share common traits: passion for helping customers, great taste for design and speed to deliver. Luke fulfilled all of those and more at DoorFeed where I was CTO. He had incredible capacity to adapt, from product design of a new mobile app to amazing landing pages."
-                        name="Juan Vicaria"
-                        title="Head of Software Engineering, 5Open"
-                        imageUrl="https://via.placeholder.com/40" // Replace with the actual image URL
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <TestimonialCard
-                        quote="Great taste for design and speed to deliver and iterate"
-                        description="Great UX designers share common traits: passion for helping customers, great taste for design and speed to deliver. Luke fulfilled all of those and more at DoorFeed where I was CTO. He had incredible capacity to adapt, from product design of a new mobile app to amazing landing pages."
-                        name="Juan Vicaria"
-                        title="Head of Software Engineering, 5Open"
-                        imageUrl="https://via.placeholder.com/40" // Replace with the actual image URL
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <TestimonialCard
-                        quote="Great taste for design and speed to deliver and iterate"
-                        description="Great UX designers share common traits: passion for helping customers, great taste for design and speed to deliver. Luke fulfilled all of those and more at DoorFeed where I was CTO. He had incredible capacity to adapt, from product design of a new mobile app to amazing landing pages."
-                        name="Juan Vicaria"
-                        title="Head of Software Engineering, 5Open"
-                        imageUrl="https://via.placeholder.com/40" // Replace with the actual image URL
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <TestimonialCard
-                        quote="Great taste for design and speed to deliver and iterate"
-                        description="Great UX designers share common traits: passion for helping customers, great taste for design and speed to deliver. Luke fulfilled all of those and more at DoorFeed where I was CTO. He had incredible capacity to adapt, from product design of a new mobile app to amazing landing pages."
-                        name="Juan Vicaria"
-                        title="Head of Software Engineering, 5Open"
-                        imageUrl="https://via.placeholder.com/40" // Replace with the actual image URL
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <TestimonialCard
-                        quote="Great taste for design and speed to deliver and iterate"
-                        description="Great UX designers share common traits: passion for helping customers, great taste for design and speed to deliver. Luke fulfilled all of those and more at DoorFeed where I was CTO. He had incredible capacity to adapt, from product design of a new mobile app to amazing landing pages."
-                        name="Juan Vicaria"
-                        title="Head of Software Engineering, 5Open"
-                        imageUrl="https://via.placeholder.com/40" // Replace with the actual image URL
-                    />
-                </SwiperSlide>
-                <div className='flex items-center justify-center gap-5 mt-7'>
-                    <div className='border border-[#222222] p-2 rounded-full'>
-                        <IoChevronBackOutline className='prev-button cursor-pointer text-[#222222]'/>
+                        },
+                        768: {
+                        slidesPerView: 2,
+                        spaceBetween: 30,
+                        },
+                        1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                        },
+                    }}
+                    loop={true}
+                    slidesPerView={3}
+                    spaceBetween={30}
+                    navigation={{nextEl: ".next-button", prevEl:".prev-button"}}
+                    pagination={false}
+                    modules={[Navigation, Pagination, Autoplay]}
+                    className="mySwiper"
+                    >
+                    <SwiperSlide>
+                        <TestimonialCard
+                            quote="Great taste for design and speed to deliver and iterate"
+                            description="Great UX designers share common traits: passion for helping customers, great taste for design and speed to deliver. Luke fulfilled all of those and more at DoorFeed where I was CTO. He had incredible capacity to adapt, from product design of a new mobile app to amazing landing pages."
+                            name="Juan Vicaria"
+                            title="Head of Software Engineering, 5Open"
+                            imageUrl="https://via.placeholder.com/40" // Replace with the actual image URL
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <TestimonialCard
+                            quote="Great taste for design and speed to deliver and iterate"
+                            description="Great UX designers share common traits: passion for helping customers, great taste for design and speed to deliver. Luke fulfilled all of those and more at DoorFeed where I was CTO. He had incredible capacity to adapt, from product design of a new mobile app to amazing landing pages."
+                            name="Juan Vicaria"
+                            title="Head of Software Engineering, 5Open"
+                            imageUrl="https://via.placeholder.com/40" // Replace with the actual image URL
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <TestimonialCard
+                            quote="Great taste for design and speed to deliver and iterate"
+                            description="Great UX designers share common traits: passion for helping customers, great taste for design and speed to deliver. Luke fulfilled all of those and more at DoorFeed where I was CTO. He had incredible capacity to adapt, from product design of a new mobile app to amazing landing pages."
+                            name="Juan Vicaria"
+                            title="Head of Software Engineering, 5Open"
+                            imageUrl="https://via.placeholder.com/40" // Replace with the actual image URL
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <TestimonialCard
+                            quote="Great taste for design and speed to deliver and iterate"
+                            description="Great UX designers share common traits: passion for helping customers, great taste for design and speed to deliver. Luke fulfilled all of those and more at DoorFeed where I was CTO. He had incredible capacity to adapt, from product design of a new mobile app to amazing landing pages."
+                            name="Juan Vicaria"
+                            title="Head of Software Engineering, 5Open"
+                            imageUrl="https://via.placeholder.com/40" // Replace with the actual image URL
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <TestimonialCard
+                            quote="Great taste for design and speed to deliver and iterate"
+                            description="Great UX designers share common traits: passion for helping customers, great taste for design and speed to deliver. Luke fulfilled all of those and more at DoorFeed where I was CTO. He had incredible capacity to adapt, from product design of a new mobile app to amazing landing pages."
+                            name="Juan Vicaria"
+                            title="Head of Software Engineering, 5Open"
+                            imageUrl="https://via.placeholder.com/40" // Replace with the actual image URL
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <TestimonialCard
+                            quote="Great taste for design and speed to deliver and iterate"
+                            description="Great UX designers share common traits: passion for helping customers, great taste for design and speed to deliver. Luke fulfilled all of those and more at DoorFeed where I was CTO. He had incredible capacity to adapt, from product design of a new mobile app to amazing landing pages."
+                            name="Juan Vicaria"
+                            title="Head of Software Engineering, 5Open"
+                            imageUrl="https://via.placeholder.com/40" // Replace with the actual image URL
+                        />
+                    </SwiperSlide>
+                    <div className='flex items-center justify-center gap-5 mt-7'>
+                        <div className='border border-[#222222] p-2 rounded-full'>
+                            <IoChevronBackOutline className='prev-button cursor-pointer text-[#222222]'/>
+                        </div>
+                        <div className='border border-[#222222] p-2 rounded-full'>
+                            <IoChevronForward className='next-button cursor-pointer text-[#222222]'/>
+                        </div>
                     </div>
-                    <div className='border border-[#222222] p-2 rounded-full'>
-                        <IoChevronForward className='next-button cursor-pointer text-[#222222]'/>
-                    </div>
-                </div>
-            </Swiper>
-                {/* <TestimonialCard
-                    quote="Great taste for design and speed to deliver and iterate"
-                    description="Great UX designers share common traits: passion for helping customers, great taste for design and speed to deliver. Luke fulfilled all of those and more at DoorFeed where I was CTO. He had incredible capacity to adapt, from product design of a new mobile app to amazing landing pages."
-                    name="Juan Vicaria"
-                    title="Head of Software Engineering, 5Open"
-                    imageUrl="https://via.placeholder.com/40" // Replace with the actual image URL
-                />
-                <TestimonialCard
-                    quote="Great taste for design and speed to deliver and iterate"
-                    description="Great UX designers share common traits: passion for helping customers, great taste for design and speed to deliver. Luke fulfilled all of those and more at DoorFeed where I was CTO. He had incredible capacity to adapt, from product design of a new mobile app to amazing landing pages."
-                    name="Juan Vicaria"
-                    title="Head of Software Engineering, 5Open"
-                    imageUrl="https://via.placeholder.com/40" // Replace with the actual image URL
-                />
-                <TestimonialCard
-                    quote="Great taste for design and speed to deliver and iterate"
-                    description="Great UX designers share common traits: passion for helping customers, great taste for design and speed to deliver. Luke fulfilled all of those and more at DoorFeed where I was CTO. He had incredible capacity to adapt, from product design of a new mobile app to amazing landing pages."
-                    name="Juan Vicaria"
-                    title="Head of Software Engineering, 5Open"
-                    imageUrl="https://via.placeholder.com/40" // Replace with the actual image URL
-                /> */}
+                </Swiper>
             </div>
             <div className='mt-[5rem] flex sm:flex-row sm:items-center flex-col items-start gap-10'>
                 <div className='flex items-end gap-[2px]'>
