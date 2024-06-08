@@ -55,10 +55,10 @@ const Footer = () => {
           </ul>
       </div>
       <div className='flex md:items-center flex-col md:flex-row items-start justify-between mt-[4rem] md:gap-0 gap-[3rem]'>
-        <p className='order-3 md:order-1'>
+        <p className='order-3 md:order-1 text-[13px]'>
           &copy; Havilah Blockchain Studio {new Date().getFullYear()}. All rights reserved
         </p>
-        <ul className='flex justify-between items-center gap-5 text-[#555] order-1 md:order-2'>
+        <ul className='flex justify-between items-center gap-5 text-[#555] order-1 md:order-2 text-[13px]'>
             <li className='flex items-center gap-1'>
                 <Link href="/">
                   Privacy Policy
@@ -75,7 +75,7 @@ const Footer = () => {
                 </Link>
             </li>
         </ul>
-        <ul className='flex text-[22px] items-center text-[#555] order-2 md:order-3 gap-[30px] md:gap-0]'>
+        <ul className='flex text-[20px] items-center text-[#555] order-2 md:order-3 gap-[30px] md:gap-0]'>
             <li className='flex items-center gap-1'>
                 <Link href="/">
                   <IoLogoBehance />

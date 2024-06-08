@@ -12,7 +12,7 @@ interface BlogCardComponentProps {
 const BlogCard = ({ date, category, title, imageSrc, link } : BlogCardComponentProps) => {
   return (
     <div className="max-w-sm mx-auto bg-white p-3 rounded-[16px]">
-      <img src={imageSrc} alt={title} className="w-full h-48 object-cover rounded-lg" />
+      <img src={imageSrc} alt={title} className="w-full h-50 object-cover rounded-lg" />
       <div className="mt-4">
         <div className='flex items-center justify-between'>
             <p className="text-gray-500 text-sm">{date}</p>
@@ -23,7 +23,7 @@ const BlogCard = ({ date, category, title, imageSrc, link } : BlogCardComponentP
       <div className="mt-[1.5rem] mb-5 ml-[10px]">
         <a 
           href={link} 
-          className="text-black hover:underline"
+          className="text-black hover:underline text-[12px]"
         >
           Read Blog
         </a>

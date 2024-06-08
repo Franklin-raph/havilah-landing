@@ -361,11 +361,11 @@ const MainArea = () => {
             <div className='mt-[5rem] flex sm:flex-row sm:items-center flex-col items-start gap-10'>
                 <div className='flex items-end gap-[2px]'>
                     <p className='font-[600] text-[30px]'>42</p>
-                    <p className='text-[#A5A5A5]'>Completed projects</p>
+                    <p className='text-[#A5A5A5] mb-[6px]'>Completed projects</p>
                 </div>
                 <div className='flex items-end gap-[2px]'>
                     <p className='font-[600] text-[30px]'>8</p>
-                    <p className='text-[#A5A5A5]'>Awards & features</p>
+                    <p className='text-[#A5A5A5] mb-[6px]'>Awards & features</p>
                 </div>
             </div>
         </div>
@@ -388,7 +388,7 @@ const MainArea = () => {
                     <p className='w-[90%]'>
                         Get a 50% discount as a first-time customer on any of our services by subscribing to our newsletter.
                     </p>
-                    <div className="bg-white py-6 px-[14px] rounded-[16px] shadow-sm mt-[5rem] border border-transparent hover:border hover:border-[#004FFF] transition duration-300">
+                    <div className="bg-white py-6 px-[26px] rounded-[16px] shadow-sm mt-[5rem] border border-transparent hover:border hover:border-[#004FFF] transition duration-300">
                         <div className='flex items-center justify-between'>
                             <div>
                                 <h2 className="text-[#004FFF] text-[22px]">Full code & UX review</h2>
@@ -403,7 +403,7 @@ const MainArea = () => {
                             <span className="text-[#A1A1A1]">starting at</span>
                             <div className="text-[45px] font-extrabold mt-1 text-[#171717]">$1,500</div>
                         </div>
-                        <ul className="mt-6 space-y-2">
+                        <ul className="mt-6 space-y-2 text-[14px]">
                             <li className="flex items-center text-gray-700 gap-[8px]">
                                 <FaCircleCheck />
                                 <p>Comprehensive review & audit</p>
@@ -432,7 +432,7 @@ const MainArea = () => {
                         <div className="mt-8">
                             <Link 
                             href="#" 
-                            className="block text-center bg-[#004FFF] text-white py-2 px-4 rounded-md font-semibold hover:bg-blue-700 transition duration-300"
+                            className="block text-center text-[#004FFF] py-2 px-4 rounded-md font-semibold hover:bg-blue-700 hover:text-white transition duration-300"
                             >
                             Book a Call
                             </Link>
@@ -441,7 +441,7 @@ const MainArea = () => {
                 </div>
 
                 <div className='md:w-[33%] w-full'>
-                    <div className="bg-white py-6 px-[14px] rounded-[16px] shadow-sm border border-transparent hover:border hover:border-[#004FFF] transition duration-300">
+                    <div className="bg-white py-6 px-[26px] rounded-[16px] shadow-sm border border-transparent hover:border hover:border-[#004FFF] transition duration-300">
                         <div className='flex items-center justify-between'>
                             <div>
                                 <h2 className="text-[#004FFF] text-[22px]">Subscription</h2>
@@ -456,7 +456,7 @@ const MainArea = () => {
                             <span className="text-[#A1A1A1]">starting at</span>
                             <div className="text-[45px] font-extrabold mt-1 text-[#171717]">$7,000</div>
                         </div>
-                        <ul className="mt-6 space-y-2">
+                        <ul className="mt-6 space-y-2 text-[14px]">
                             <li className="flex items-center text-gray-700 gap-[8px]">
                                 <FaCircleCheck />
                                 <p>Dedicated development & design experts</p>
@@ -489,7 +489,7 @@ const MainArea = () => {
                         <div className="mt-8">
                             <Link 
                             href="#" 
-                            className="block text-center bg-[#004FFF] text-white py-2 px-4 rounded-md font-semibold hover:bg-blue-700 transition duration-300"
+                            className="block text-center text-[#004FFF] py-2 px-4 rounded-md font-semibold hover:bg-blue-700 hover:text-white transition duration-300"
                             >
                             Book a Call
                             </Link>
@@ -498,7 +498,7 @@ const MainArea = () => {
                 </div>
 
                 <div className='md:w-[33%] w-full'>
-                    <div className="bg-white py-6 px-[14px] rounded-[16px] shadow-sm md:mt-[10rem] border border-transparent hover:border hover:border-[#004FFF] transition duration-300">
+                    <div className="bg-white py-6 px-[26px] rounded-[16px] shadow-sm md:mt-[10rem] border border-transparent hover:border hover:border-[#004FFF] transition duration-300">
                         <div className='flex items-center justify-between'>
                             <div>
                                 <h2 className="text-[#004FFF] text-[22px]">Fixed Price</h2>
@@ -515,7 +515,7 @@ const MainArea = () => {
                             <span className="text-[#A1A1A1]">starting at</span>
                             <div className="text-[45px] font-extrabold mt-1 text-[#171717]">$15,000</div>
                         </div>
-                        <ul className="mt-6 space-y-2">
+                        <ul className="mt-6 space-y-2 text-[14px]">
                             <li className="flex items-center text-gray-700 gap-[8px]">
                                 <FaCircleCheck />
                                 <p>Dedicated development & design experts</p>
@@ -548,7 +548,7 @@ const MainArea = () => {
                         <div className="mt-8">
                             <Link 
                             href="#" 
-                            className="block text-center bg-[#004FFF] text-white py-2 px-4 rounded-md font-semibold hover:bg-blue-700 transition duration-300"
+                            className="block text-center text-[#004FFF] py-2 px-4 rounded-md font-semibold hover:bg-blue-700 hover:text-white transition duration-300"
                             >
                             Book a Call
                             </Link>
@@ -607,17 +607,17 @@ const MainArea = () => {
                     className="absolute inset-0 w-full h-full object-contain"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-transparent opacity-50"></div>
-                <div className="relative z-10 p-4 sm:p-8 bg-white bg-opacity-[95%] w-full sm:w-[80%] md:w-[60%] rounded-[16px] ml-auto">
+                <div className="relative z-10 p-4 sm:p-8 bg-white bg-opacity-[95%] w-full sm:w-[60%] md:w-[50%] rounded-[16px] ml-auto">
                     {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-transparent opacity-50"></div> */}
                     <div className='flex items-center'>
-                        <p className='text-gradient'>STAY UP TO DATE</p>
+                        <p className='text-gradient text-[12px]'>STAY UP TO DATE</p>
                     </div>
                     <h2 className="sm:text-2xl text-lg font-[500] text-gray-800">Get the Havilah Newsletter</h2>
                     <div className="mt-4 flex items-center">
                         <input
                             type="email"
                             placeholder="Enter your email"
-                            className="p-2 border border-gray-300 rounded-full focus:outline-none w-full bg-transparent"
+                            className="p-2 border border-gray-300 rounded-full placeholder:text-[12px] text-[12px] focus:outline-none w-full bg-transparent"
                         />
                     </div>
                 </div>
