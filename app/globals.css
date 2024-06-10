@@ -37,3 +37,11 @@ html, body{
 .slick-dots li.slick-active button:before {
   color: #000;
 }
+
+.threeD-asset-bg{
+  /* background-image: url('../public/images/3D-Asset.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 700px; */
+}
