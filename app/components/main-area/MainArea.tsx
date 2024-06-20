@@ -74,8 +74,8 @@ const MainArea = () => {
     <div>
         <div className='text-center'>
             <p className='text-[18px] md:text-[22px] px-[20px]'>Havilah Blockchain Studios →️ 👨🏻‍💻 <span className="text-transparent text-gradient">Designs, Builds and Scales</span> </p>
-            <p className='text-[32px] md:text-[40px] lg:text-[54px] font-[500] w-[75%] mx-auto mt-4 md:leading-[68.224px] md:tracking-[-3.2px]'>Web3 Startups using cutting-edge Solutions that fit your budget.</p>
-            <p className='text-[#717171] md:text-[28px] text-[18px] md:w-[65%] w-[90%] mt-5 mx-auto leading-[30px] tracking-[-1.4px]'>Get your idea from paper to web or server in the shortest possible time using the most scalable architecture.</p>
+            <p className='text-[32px] md:text-[40px] lg:text-[48px] font-[500] w-[65%] mx-auto mt-4 md:leading-[68.224px] md:tracking-[-3.2px]'>Web3 Startups using cutting-edge Solutions that fit your budget.</p>
+            <p className='text-[#717171] md:text-[26px] text-[18px] md:w-[55%] w-[90%] mt-5 mx-auto leading-[30px] tracking-[-1.4px]'>Get your idea from paper to web or server in the shortest possible time using the most scalable architecture.</p>
             <button className='bg-[#0F0A3E] px-[15px] rounded-full py-2 text-white mt-[4rem]'>Book a Call</button>
         </div>
         <div className='threeD-asset-bg py-[10rem] relative'>
