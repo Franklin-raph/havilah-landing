@@ -74,7 +74,7 @@ const MainArea = () => {
     <div>
         <div className='text-center'>
             <p className='text-[18px] md:text-[22px] px-[20px]'>Havilah Blockchain Studios →️ 👨🏻‍💻 <span className="text-transparent text-gradient">Designs, Builds and Scales</span> </p>
-            <p className='text-[32px] md:text-[40px] lg:text-[64px] font-[500] w-[95%] mx-auto mt-4 md:leading-[68.224px] md:tracking-[-3.2px]'>Web3 Startups using cutting-edge Solutions that fit your budget.</p>
+            <p className='text-[32px] md:text-[40px] lg:text-[54px] font-[500] w-[75%] mx-auto mt-4 md:leading-[68.224px] md:tracking-[-3.2px]'>Web3 Startups using cutting-edge Solutions that fit your budget.</p>
             <p className='text-[#717171] md:text-[28px] text-[18px] md:w-[65%] w-[90%] mt-5 mx-auto leading-[30px] tracking-[-1.4px]'>Get your idea from paper to web or server in the shortest possible time using the most scalable architecture.</p>
             <button className='bg-[#0F0A3E] px-[15px] rounded-full py-2 text-white mt-[4rem]'>Book a Call</button>
         </div>
@@ -373,8 +373,8 @@ const MainArea = () => {
             </div>
         </div>
 
-        <div className='px-[20px] md:px-[30px] mt-[8rem]'>
-            <div className='flex items-center justify-between mb-7'>
+        <div className='px-[20px] md:pl-[60px] mt-[8rem]'>
+            <div className='flex items-center justify-between mb-[42px]'>
                 <p className='text-[18px] leading-[30px] md:text-[28px]'>Pricing</p>
                 <div className='flex items-center gap-6 bg-white rounded-full px-4 py-2'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" cursor='pointer'>
@@ -397,10 +397,10 @@ const MainArea = () => {
                                 <h2 className="text-[#004FFF] text-[22px]">Full code & UX review</h2>
                                 <p className="text-[#171717] text-[14px]">Insights & actionable growth strategies</p>
                             </div>
-                            <div className='bg-[#D9D9D936] p-2 rounded-full flex items-center'>
+                            {/* <div className='bg-[#D9D9D936] p-2 rounded-full flex items-center'>
                                 <p>✨</p>
                                 <p className='text-gradient text-[11px]'>Most Affordable</p>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="mt-[4rem]">
                             <span className="text-[#A1A1A1]">starting at</span>
@@ -451,7 +451,7 @@ const MainArea = () => {
                                 <p className="text-[#171717] text-[14px]">Insights & actionable growth strategies</p>
                             </div>
                             <div className='text-white p-2 rounded-full flex items-center' style={{ background:'linear-gradient(to right, #004FFF, #15D300)' }}>
-                                <p>✨</p>
+                                {/* <p>✨</p> */}
                                 <p className='text-[10px]'>Most Popular</p>
                             </div>
                         </div>
@@ -507,10 +507,10 @@ const MainArea = () => {
                                 <h2 className="text-[#004FFF] text-[22px]">Fixed Price</h2>
                                 <p className="text-[#171717] text-[14px]">Perfect for comprehensive projects</p>
                             </div>
-                            <div className='bg-[#D9D9D936] py-2 px-4 rounded-full flex items-center'>
+                            {/* <div className='bg-[#D9D9D936] py-2 px-4 rounded-full flex items-center'>
                                 <p>✨</p>
                                 <p className='text-gradient text-[12px]'>Best Value</p>
-                            </div>
+                            </div> */}
                         </div>
                         {/* <h2 className="text-[#004FFF] text-[24px]"></h2>
                         <p className="text-[#171717]"></p> */}
@@ -603,15 +603,14 @@ const MainArea = () => {
             </div> */}
         </div>
         <div className='px-[20px] md:px-[50px] mt-[5rem]'>
-            <div className="relative h-[55vh] flex items-end justify-between w-full bg-gray-100 sm:p-6 p-3 rounded-[16px] shadow-lg overflow-hidden">
+            <div className="relative h-[55vh] flex items-end justify-between w-full bg-gray-100 rounded-[16px] overflow-hidden">
                 <img 
-                    src="./images/news-letter.png" // Replace with your image path
+                    src="./images/news1.svg" // Replace with your image path
                     alt="Typewriter"
-                    className="absolute inset-0 w-full h-full object-contain"
+                    className="absolute inset-0 w-full h-full"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-transparent opacity-50"></div>
+                {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-transparent opacity-50"></div> */}
                 <div className="relative z-10 p-4 sm:p-8 bg-white bg-opacity-[95%] w-full sm:w-[60%] md:w-[50%] rounded-[16px] ml-auto">
-                    {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-transparent opacity-50"></div> */}
                     <div className='flex items-center'>
                         <p className='text-gradient text-[12px]'>STAY UP TO DATE</p>
                     </div>
