@@ -550,7 +550,7 @@ const MainArea = () => {
             </div>
         </div>
 
-        <div className='md:px-[30px] px-[20px] mt-[8rem]'>
+        <div className='md:px-[30px] px-[20px] md:pl-[60px] mt-[8rem]'>
             <div className='flex items-center justify-between mb-5'>
                 <p className='text-[18px] leading-[30px] md:text-[28px]'>Havilah Blog</p>
                 <div className='flex items-center gap-6 bg-white rounded-full px-4 py-2'>
@@ -586,20 +586,20 @@ const MainArea = () => {
                 />
             </div>
             <div className='text-center mt-[2rem]'>
-                <p className='cursor-pointer inline'>Read More Articles</p>
+                <p className='cursor-pointer inline text-[14px]'>Read More Articles</p>
             </div>
             {/* <div className="bg-gray-100 flex items-center gap-[1rem] justify-center">
             </div> */}
         </div>
         <div className='px-[20px] md:px-[50px] mt-[5rem]'>
-            <div className="relative h-[55vh] flex items-end justify-between w-full bg-gray-100 rounded-[16px] overflow-hidden">
+            <div className="relative h-[55vh] flex items-end justify-between w-full rounded-[16px] overflow-hidden">
                 <img 
                     src="./images/news1.svg" // Replace with your image path
                     alt="Typewriter"
-                    className="absolute inset-0 w-full h-full"
+                    className="absolute inset-0 w-full h-[55vh]"
                 />
                 {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-transparent opacity-50"></div> */}
-                <div className="relative z-10 p-4 sm:p-8 bg-white bg-opacity-[95%] w-full sm:w-[60%] md:w-[50%] rounded-[16px] ml-auto">
+                <div className="relative right-[24px] z-10 p-4 sm:p-8 bg-white bg-opacity-[95%] w-full sm:w-[60%] md:w-[50%] rounded-l-[16px] ml-auto">
                     <div className='flex items-center'>
                         <p className='text-gradient text-[12px]'>STAY UP TO DATE</p>
                     </div>

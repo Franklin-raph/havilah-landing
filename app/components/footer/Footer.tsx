@@ -23,7 +23,43 @@ const Footer = () => {
           <p className='mb-7'>37, St Anthony Lodge, Ifite-Awka Anambra, Nigeria. 420112</p>
           <p>AT: 5252837088 Unikorns Sp. z o. o. Registred in Warsaw, Poland</p>
         </div>
-        <ul className='grid grid-cols-1 sm:grid-cols-3 w-full md:grid-cols-3 justify-between items-center gap-5 text-[#555]  mt-[3rem]'>
+        <div className='flex gap-16'>
+          <div>
+            <p className='text[18px] font-[600] mb-7'>For You</p>
+            <ul className='grid gap-2'>
+              <li>
+                <Link href="/">Services</Link>
+              </li>
+              <li>
+                <Link href="/">Projects</Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p className='text[18px] font-[600] mb-7'>About Us</p>
+            <ul className='grid gap-2'>
+              <li>
+                <Link href="/">Company</Link>
+              </li>
+              <li>
+                <Link href="/">Blog</Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p className='text[18px] font-[600] mb-7'>Connect</p>
+            <ul className='grid gap-2'>
+              <li>
+                <Link href="/">Accelerator</Link>
+              </li>
+              <li>
+                <Link href="/">Contact Us</Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {/* <ul className='grid grid-cols-1 sm:grid-cols-3 w-full md:grid-cols-3 justify-between items-center gap-5 text-[#555]  mt-[3rem]'>
+
               <li className='flex items-center gap-1 cursor-pointer justify-between w-full'>
                   <p>Services</p>
                   <HiMiniChevronDown className='text-[25px]'/>
@@ -52,7 +88,7 @@ const Footer = () => {
                       Contact Us
                   </Link>
               </li>
-          </ul>
+          </ul> */}
       </div>
       <div className='flex md:items-center flex-col md:flex-row items-start justify-between mt-[4rem] md:gap-0 gap-[3rem]'>
         <p className='order-3 md:order-1 text-[13px]'>
