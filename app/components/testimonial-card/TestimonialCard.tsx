@@ -11,7 +11,7 @@ interface TestimonialProps {
 const TestimonialCard = ({ quote, description, name, title, imageUrl } : TestimonialProps) => {
   return (
     <div className="px-[36px] py-10 mx-auto bg-white rounded-[16px] cursor-pointer">
-      <blockquote>
+      <blockquote className='font-[500]'>
         “{quote}”
       </blockquote>
       <p className="font-[300] my-[40px]">

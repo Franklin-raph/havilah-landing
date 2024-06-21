@@ -34,15 +34,15 @@ const Nav = () => {
     
   return (
     <div className='bg-white py-[25px] md:px-[50px] px-[20px] flex justify-between items-center fixed w-full z-[9999]'>
-        <img src="./images/Logo.svg" alt="" />
-        <div className='hidden xl:block'>
+        <img src="./images/Logo.svg" alt="" className='cursor-pointer w-[200px]' onClick={() => window.location.assign('/')} />
+        <div className='hidden xl:block text-[14px]'>
             <span className='text-[#0C0C0C] font-[500]'>{time}</span>
-            <span className='text-[#555555] mx-1'>Est</span>
+            <span className='text-[#8d8d8d] mx-1 font-[500]'>Est</span>
             <span>⚡️</span>
-            <span className='text-[#0073DD]'>Lagos, Nigeria</span>
+            <span className='text-[#0073DD] font-[300]'>Lagos, Nigeria</span>
         </div>
         <FiMenu onClick={() => setOpenNav(true)} className='cursor-pointer xl:hidden block text-[22px]'/>
-        <ul className='xl:flex justify-between items-center gap-5 text-[#555] hidden'>
+        <ul className='xl:flex justify-between items-center gap-5 text-[#555] hidden text-[14px]'>
             <li className='flex items-center gap-1 cursor-pointer'>
                 <p>Services</p>
                 <HiMiniChevronDown />

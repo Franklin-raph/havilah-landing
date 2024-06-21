@@ -73,12 +73,12 @@ const MainArea = () => {
   return (
     <div>
         <div className='text-center'>
-            <p className='text-[18px] md:text-[22px] px-[20px]'>Havilah Blockchain Studios →️ 👨🏻‍💻 <span className="text-transparent text-gradient">Designs, Builds and Scales</span> </p>
-            <p className='text-[32px] md:text-[40px] lg:text-[48px] font-[500] w-[65%] mx-auto mt-4 md:leading-[68.224px] md:tracking-[-3.2px]'>Web3 Startups using cutting-edge Solutions that fit your budget.</p>
-            <p className='text-[#717171] md:text-[26px] text-[18px] md:w-[55%] w-[90%] mt-5 mx-auto leading-[30px] tracking-[-1.4px]'>Get your idea from paper to web or server in the shortest possible time using the most scalable architecture.</p>
-            <button className='bg-[#0F0A3E] px-[15px] rounded-full py-2 text-white mt-[4rem]'>Book a Call</button>
+            <p className='text-[18px] md:text-[18px] px-[20px]'>Havilah Blockchain Studios →️ 👨🏻‍💻 <span className="text-transparent text-gradient">Designs, Builds and Scales</span> </p>
+            <p className='text-[32px] md:text-[40px] lg:text-[44px] font-[500] w-[55%] mx-auto my-4 md:leading-[48.224px] md:tracking-[-3.2px]'>Web3 Startups using cutting-edge Solutions that fit your budget.</p>
+            <p className='text-[#717171] md:text-[20px] text-[18px] md:w-[40%] w-[90%] mx-auto leading-[30px] tracking-[-1.4px]'>Get your idea from paper to web or server in the shortest possible time using the most scalable architecture.</p>
+            <button className='bg-[#0F0A3E] px-[15px] rounded-full py-2 text-white mt-7'>Book a Call</button>
         </div>
-        <div className='threeD-asset-bg py-[10rem] relative'>
+        <div className='threeD-asset-bg pt-[9rem] relative'>
             <img src="./images/3D-Asset.svg" className='absolute w-[60%] right-0 top-0' alt="" />
             <div className='text-start md:px-[50px] px-[25px]'>
                 <p className='text-[#A1A1A1] mb-4'>Trusted by visionaries</p>
@@ -93,25 +93,25 @@ const MainArea = () => {
                             spaceBetween: 20,
                         },
                         640: {
-                        slidesPerView: 3,
-                        spaceBetween: 20,
+                            slidesPerView: 3,
+                            spaceBetween: 20,
                         },
                         768: {
-                        slidesPerView: 4,
-                        spaceBetween: 30,
+                            slidesPerView: 4,
+                            spaceBetween: 30,
                         },
                         1024: {
-                        slidesPerView: 5,
-                        spaceBetween: 30,
+                            slidesPerView: 5,
+                            spaceBetween: 30,
                         },
                     }}
-                    loop={true}
-                    slidesPerView={3}
-                    spaceBetween={30}
-                    navigation={{nextEl: ".next-button", prevEl:".prev-button"}}
-                    pagination={false}
-                    modules={[Navigation, Pagination, Autoplay]}
-                    className="mySwiper"
+                        loop={true}
+                        slidesPerView={3}
+                        spaceBetween={30}
+                        navigation={{nextEl: ".next-button", prevEl:".prev-button"}}
+                        pagination={false}
+                        modules={[Navigation, Pagination, Autoplay]}
+                        className="mySwiper"
                     >
                         <SwiperSlide>
                             <svg xmlns="http://www.w3.org/2000/svg" width="174" height="31" viewBox="0 0 174 31" fill="none">
@@ -196,10 +196,10 @@ const MainArea = () => {
                         </SwiperSlide>
                     </Swiper>
             </div>
-            <div className='mt-[16rem] text-center'>
+            <div className='mt-[12rem] text-center'>
                 <div className='md:w-[55%] md:mx-auto px-[10px]'>
                     <p className='text-[#666666] font-[500] text-[14px] tracking-[4.32px] md:leading-[51.6px]'>START HERE. BUILD ANYTHING</p>
-                    <p className='text-[#171717] font-[500] text-[28px] md:text-[30px] lg:text-[44px] tracking-[-2.4px] md:leading-[45.168px]'>A complete suite of products to create and participate in web3</p>
+                    <p className='text-[#171717] font-[500] text-[28px] md:text-[30px] lg:text-[40px] w-[85%] mx-auto tracking-[-2.4px] md:leading-[45.168px]'>A complete suite of products to create and participate in web3</p>
                 </div>
             </div>
         </div>
@@ -374,7 +374,7 @@ const MainArea = () => {
         </div>
 
         <div className='px-[20px] md:pl-[60px] mt-[8rem]'>
-            <div className='flex items-center justify-between mb-[42px]'>
+            <div className='flex items-center justify-between mb-[60px]'>
                 <p className='text-[18px] leading-[30px] md:text-[28px]'>Pricing</p>
                 <div className='flex items-center gap-6 bg-white rounded-full px-4 py-2'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" cursor='pointer'>
@@ -397,10 +397,6 @@ const MainArea = () => {
                                 <h2 className="text-[#004FFF] text-[22px]">Full code & UX review</h2>
                                 <p className="text-[#171717] text-[14px]">Insights & actionable growth strategies</p>
                             </div>
-                            {/* <div className='bg-[#D9D9D936] p-2 rounded-full flex items-center'>
-                                <p>✨</p>
-                                <p className='text-gradient text-[11px]'>Most Affordable</p>
-                            </div> */}
                         </div>
                         <div className="mt-[4rem]">
                             <span className="text-[#A1A1A1]">starting at</span>
@@ -432,10 +428,10 @@ const MainArea = () => {
                                 <p>1 - 1 consultation</p>
                             </li>
                         </ul>
-                        <div className="mt-8">
+                        <div className="mt-8 text-center">
                             <Link 
                             href="#" 
-                            className="block text-center text-[#004FFF] py-2 px-4 rounded-md font-semibold hover:bg-blue-700 hover:text-white transition duration-300"
+                            className="inline-block text-[#004FFF] py-2 px-7 rounded-full hover:bg-[#F2F3F5] transition duration-300"
                             >
                             Book a Call
                             </Link>
@@ -450,8 +446,7 @@ const MainArea = () => {
                                 <h2 className="text-[#004FFF] text-[22px]">Subscription</h2>
                                 <p className="text-[#171717] text-[14px]">Insights & actionable growth strategies</p>
                             </div>
-                            <div className='text-white p-2 rounded-full flex items-center' style={{ background:'linear-gradient(to right, #004FFF, #15D300)' }}>
-                                {/* <p>✨</p> */}
+                            <div className='text-white p-2 rounded-full flex items-center bg-[#F2F3F5] text-transparent text-gradient'>
                                 <p className='text-[10px]'>Most Popular</p>
                             </div>
                         </div>
@@ -489,10 +484,10 @@ const MainArea = () => {
                                 <p>Weekly meetings</p>
                             </li>
                         </ul>
-                        <div className="mt-8">
+                        <div className="mt-8 text-center">
                             <Link 
                             href="#" 
-                            className="block text-center text-[#004FFF] py-2 px-4 rounded-md font-semibold hover:bg-blue-700 hover:text-white transition duration-300"
+                            className="inline-block text-[#004FFF] py-2 px-7 rounded-full hover:bg-[#F2F3F5] transition duration-300"
                             >
                             Book a Call
                             </Link>
@@ -507,13 +502,7 @@ const MainArea = () => {
                                 <h2 className="text-[#004FFF] text-[22px]">Fixed Price</h2>
                                 <p className="text-[#171717] text-[14px]">Perfect for comprehensive projects</p>
                             </div>
-                            {/* <div className='bg-[#D9D9D936] py-2 px-4 rounded-full flex items-center'>
-                                <p>✨</p>
-                                <p className='text-gradient text-[12px]'>Best Value</p>
-                            </div> */}
                         </div>
-                        {/* <h2 className="text-[#004FFF] text-[24px]"></h2>
-                        <p className="text-[#171717]"></p> */}
                         <div className="mt-[4rem]">
                             <span className="text-[#A1A1A1]">starting at</span>
                             <div className="text-[45px] font-extrabold mt-1 text-[#171717]">$15,000</div>
@@ -548,10 +537,10 @@ const MainArea = () => {
                                 <p>Weekly meetings</p>
                             </li>
                         </ul>
-                        <div className="mt-8">
+                        <div className="mt-8 text-center">
                             <Link 
                             href="#" 
-                            className="block text-center text-[#004FFF] py-2 px-4 rounded-md font-semibold hover:bg-blue-700 hover:text-white transition duration-300"
+                            className="inline-block text-[#004FFF] py-2 px-7 rounded-full hover:bg-[#F2F3F5] transition duration-300"
                             >
                             Book a Call
                             </Link>
