@@ -74,9 +74,9 @@ const Nav = () => {
         </ul>
         {
             openNav &&
-            <ul className='flex flex-col top-0 bg-[#F2F3F4] w-full left-0 justify-start items-center gap-12 text-[#555] z-[99] fixed pt-5 pb-10 px-9 h-full'>
+            <ul className='flex flex-col top-0 bg-[#F2F3F4] w-full left-0 justify-start items-center gap-12 text-[#555] z-[99] fixed pt-5 pb-10 px-9 h-[100vh]'>
                 <div className='flex items-center justify-between w-full'>
-                    <img src="./images/Logo.svg" alt="" />
+                    <img src="./images/Logo.svg" alt="" className='cursor-pointer w-[200px]' onClick={() => window.location.assign('/')} />
                     <IoClose className='text-[25px] cursor-pointer' onClick={() => setOpenNav(false)}/>
                 </div>
                 <li className='flex items-center gap-1 cursor-pointer justify-between w-full border-b pb-3'>

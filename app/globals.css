@@ -46,7 +46,7 @@ html, body{
   background-size: 700px; */
 }
 
-nav{
-  backdrop-filter: blur(10px); 
-  -webkit-backdrop-filter: blur(10px); 
+nav, .mobile-nav{
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
