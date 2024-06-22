@@ -74,7 +74,7 @@ const MainArea = () => {
     <div>
         <div className='text-center'>
             <p className='text-[18px] md:text-[18px] px-[20px]'>Havilah Blockchain Studios →️ 👨🏻‍💻 <span className="text-transparent text-gradient">Designs, Builds and Scales</span> </p>
-            <p className='text-[32px] md:text-[40px] lg:text-[44px] font-[500] w-[55%] mx-auto my-4 md:leading-[48.224px] md:tracking-[-3.2px]'>Web3 Startups using cutting-edge Solutions that fit your budget.</p>
+            <p className='text-[32px] md:text-[40px] lg:text-[44px] font-[500] md:w-[55%] w-[95%] mx-auto my-4 md:leading-[48.224px] md:tracking-[-3.2px]'>Web3 Startups using cutting-edge Solutions that fit your budget.</p>
             <p className='text-[#717171] md:text-[20px] text-[18px] md:w-[40%] w-[90%] mx-auto leading-[30px] tracking-[-1.4px]'>Get your idea from paper to web or server in the shortest possible time using the most scalable architecture.</p>
             <button className='bg-[#0F0A3E] px-[15px] rounded-full py-2 text-white mt-7'>Book a Call</button>
         </div>
