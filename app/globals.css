@@ -45,3 +45,8 @@ html, body{
   background-position: right;
   background-size: 700px; */
 }
+
+nav{
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+}
