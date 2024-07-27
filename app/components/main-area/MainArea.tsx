@@ -255,7 +255,7 @@ const MainArea = () => {
         
         <div className='px-[20px] md:pl-[80px] mt-[8rem]'>
             <div className='flex flex-col mb-5'>
-                <p className='text-[18px] md:text-[28px] md:leading-[30px] mb-7'>Customer <br /> Review </p>
+                <p className='text-[18px] md:text-[28px] md:leading-[30px] mb-3'>Customer <br /> Review </p>
                 <p className='text-[#717171] w-[43%]'>Our works are a blend of innovative thinking and practical solutions, ensuring they are both unique and effective.</p>
                 {/* <div className='flex items-center gap-6 bg-white rounded-full px-4 py-2'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" cursor='pointer'>
@@ -369,7 +369,7 @@ const MainArea = () => {
 
         <div className='px-[20px] md:pl-[80px] mt-[8rem]'>
             <div className='flex flex-col items-start justify-between mb-[60px]'>
-                <p className='text-[18px] leading-[30px] md:text-[28px] mb-7'>Pricing</p>
+                <p className='text-[18px] leading-[30px] md:text-[28px] mb-3'>Pricing <br /> Optionns</p>
                 <p className='text-[#717171] w-[33%]'>
                     Get your project done with affordable prices that you can turst.
                 </p>
@@ -542,29 +542,29 @@ const MainArea = () => {
 
         <div className='md:px-[30px] px-[20px] md:pl-[80px] mt-[8rem]'>
             <div className='flex flex-col mb-5'>
-                <p className='text-[18px] leading-[30px] md:text-[28px] mb-7'>Havilah Blog</p>
+                <p className='text-[18px] leading-[30px] md:text-[28px] mb-3'>Havilah Blog</p>
                 <p className='text-[#717171] w-[43%]'>Our works are a blend of innovative thinking and practical solutions, ensuring they are both unique and effective.</p>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-start justify-start place-content-center place-items-start py-4 gap-10">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 place-content-center lg:place-items-start place-items-center py-4 gap-10">
                 <BlogCard 
                     date="12, May 2022" 
                     category="Community" 
                     title="Response to ACPR&apos;s Discussion Paper Decentralised or Disintermediated Finance: What Regulatory Response" 
-                    imageSrc="./images/blog-image.svg" // Replace with your image path
+                    imageSrc="./images/image_2.png" // Replace with your image path
                     link="#"
                 />
                 <BlogCard 
                     date="12, May 2022" 
                     category="blog" 
                     title="Response to ACPR&apos;s Discussion Paper Decentralised or Disintermediated Finance: What Regulatory Response" 
-                    imageSrc="./images/blog-image2.svg" // Replace with your image path
+                    imageSrc="./images/image_2.png" // Replace with your image path
                     link="#"
                 />
                 <BlogCard 
                     date="12, May 2022" 
                     category="In Press" 
                     title="Response to ACPR&apos;s Discussion Paper Decentralised or Disintermediated Finance: What Regulatory Response" 
-                    imageSrc="./images/blog-image3.svg" // Replace with your image path
+                    imageSrc="./images/image_2.png" // Replace with your image path
                     link="#"
                 />
             </div>
@@ -574,17 +574,17 @@ const MainArea = () => {
         <div className='px-[20px] md:pl-[80px] mt-[5rem]'>
             <div className="relative h-[55vh] flex items-end justify-between w-full rounded-[16px] overflow-hidden">
                 <img 
-                    src="./images/news1.svg" // Replace with your image path
+                    src="./images/news1.svg"
                     alt="Typewriter"
                     className="absolute inset-0 w-full h-full object-cover"
                 />
                 {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-transparent opacity-50"></div> */}
-                <div className="relative right-[24px] bottom-0 z-10 p-4 sm:p-8 bg-white bg-opacity-[95%] w-full md:w-[60%] rounded-l-[16px] ml-auto">
+                <div className="relative right-0 bottom-0 z-10 p-4 sm:p-8 bg-white bg-opacity-[65%] w-full md:w-[50%] rounded-[16px] ml-auto">
                     <div className='flex items-center'>
                         <p className='text-gradient text-[12px]'>STAY UP TO DATE</p>
                     </div>
-                    <h2 className="sm:text-[32px] text-lg font-normal text-gray-800 mt-3">Get the Havilah Newsletter</h2>
-                    <div className="mt-6 flex items-center mr-[-25px]">
+                    <h2 className="sm:text-[38px] text-lg font-normal text-gray-800 mt-3">Get the Havilah Newsletter</h2>
+                    <div className="mt-6 flex items-center">
                         <input
                             type="email"
                             placeholder="Enter your email"

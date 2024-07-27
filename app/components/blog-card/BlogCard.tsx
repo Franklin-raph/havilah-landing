@@ -18,16 +18,16 @@ const BlogCard = ({ date, category, title, imageSrc, link } : BlogCardComponentP
             <p className="text-gray-500 text-sm">{date}</p>
             <p className="text-sm text-gradient">{category}</p>
         </div>
-        <h2 className="text-gray-800 text-xl font-[500] mt-4 leading-[26px]">{title}</h2>
+        {/* <h2 className="text-gray-800 text-xl font-[500] mt-4 leading-[26px]">{title}</h2> */}
       </div>
-      <div className="mt-[1.5rem] mb-5 ml-[10px]">
+      {/* <div className="mt-[1.5rem] mb-5 ml-[10px]">
         <a 
           href={link} 
           className="text-black hover:underline text-[12px]"
         >
           Read Blog
         </a>
-      </div>
+      </div> */}
     </div>
   )
 }

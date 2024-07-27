@@ -34,7 +34,7 @@ const Nav = () => {
 
     
   return (
-    <nav className='shadow py-[25px] md:px-[50px] px-[20px] flex justify-between items-center fixed w-full z-[9999]'>
+    <nav className='shadow py-[25px] md:pl-[80px] px-[20px] flex justify-between items-center fixed w-full z-[9999]'>
         <img src="./images/Logo.svg" alt="" className='cursor-pointer w-[200px]' onClick={() => window.location.assign('/')} />
         <div className='hidden xl:block text-[14px]'>
             <span className='text-[#0C0C0C] font-[500]'>{time}</span>
@@ -43,34 +43,18 @@ const Nav = () => {
             <span className='text-[#0073DD] font-[300]'>Lagos, Nigeria</span>
         </div>
         <RxDashboard onClick={() => setOpenNav(true)} className='cursor-pointer xl:hidden block text-[22px]'/>
-        <ul className='xl:flex justify-between items-center gap-5 text-[#555] hidden text-[14px]'>
-            <li className='flex items-center gap-1 cursor-pointer'>
-                <p>Services</p>
-                <HiMiniChevronDown />
+        <ul className='xl:flex justify-between items-center gap-8 text-[#555] hidden text-[14px]'>
+            <li className='flex items-center gap-2 cursor-pointer'>
+                <p>For You</p>
+                <HiMiniChevronDown className='text-[22px]'/>
             </li>
-            <li className='flex items-center gap-1'>
-                <Link href="/">
-                    Projects
-                </Link>
+            <li className='flex items-center gap-2 cursor-pointer'>
+                <p>About Us</p>
+                <HiMiniChevronDown className='text-[22px]'/>
             </li>
-            <li className='flex items-center gap-1 cursor-pointer'>
-                <p>Company</p>
-                <HiMiniChevronDown />
-            </li>
-            <li className='flex items-center gap-1'>
-                <Link href="/">
-                    Blog
-                </Link>
-            </li>
-            <li className='flex items-center gap-1'>
-                <Link href="/">
-                    Accelerator
-                </Link>
-            </li>
-            <li className='flex items-center gap-1'>
-                <Link href="/">
-                    Contact Us
-                </Link>
+            <li className='flex items-center gap-2 cursor-pointer'>
+                <p>Connect</p>
+                <HiMiniChevronDown className='text-[22px]'/>
             </li>
         </ul>
         {
@@ -81,32 +65,16 @@ const Nav = () => {
                     <IoClose className='text-[25px] cursor-pointer' onClick={() => setOpenNav(false)}/>
                 </div>
                 <li className='flex items-center gap-1 cursor-pointer justify-between w-full border-b pb-3'>
-                    <p>Services</p>
+                    <p>For You</p>
                     <HiMiniChevronDown className='text-[25px]'/>
                 </li>
                 <li className='flex items-center gap-1 justify-between w-full border-b pb-3'>
-                    <Link href="/">
-                        Projects
-                    </Link>
+                    <p>About Us</p>
+                    <HiMiniChevronDown className='text-[25px]'/>
                 </li>
                 <li className='flex items-center gap-1 cursor-pointer justify-between w-full border-b pb-3'>
-                    <p>Company</p>
+                    <p>Connect</p>
                     <HiMiniChevronDown className='text-[25px]'/>
-                </li>
-                <li className='flex items-center gap-1 justify-between w-full border-b pb-3'>
-                    <Link href="/">
-                        Blog
-                    </Link>
-                </li>
-                <li className='flex items-center gap-1 justify-between w-full border-b pb-3'>
-                    <Link href="/">
-                        Accelerator
-                    </Link>
-                </li>
-                <li className='flex items-center gap-1 justify-between w-full border-b pb-3'>
-                    <Link href="/">
-                        Contact Us
-                    </Link>
                 </li>
                 <div className='absolute bottom-[2rem]'>
                     <span className='text-[#0C0C0C] font-[500]'>{time}</span>

@@ -7,6 +7,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { BsGithub } from "react-icons/bs";
 
 import { HiMiniChevronDown } from 'react-icons/hi2'
+import { FaX, FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
@@ -113,27 +114,27 @@ const Footer = () => {
         </ul>
         <ul className='flex text-[20px] items-center text-[#555] order-2 md:order-3 gap-[30px] md:gap-0]'>
             <li className='flex items-center gap-1'>
-                <Link href="/">
+                <Link href="https://www.behance.net/havilah-studios" target='_blank'>
                   <IoLogoBehance />
                 </Link>
             </li>
             <li className='flex items-center gap-1'>
-                <Link href="/">
+                <Link href="https://www.linkedin.com/company/havilah-blockchain-studios" target='_blank'>
                   <FaLinkedin />
                 </Link>
             </li>
             <li className='flex items-center gap-1'>
-                <Link href="/">
-                  <AiFillDribbbleCircle />
+                <Link href="https://x.com/HavilahHq" target='_blank'>
+                  <FaXTwitter />
                 </Link>
             </li>
             <li className='flex items-center gap-1'>
-                <Link href="/">
+                <Link href="https://www.instagram.com/havilah.studios" target='_blank'>
                   <AiFillInstagram />
                 </Link>
             </li>
             <li className='flex items-center gap-1'>
-                <Link href="/">
+                <Link href="https://github.com/Havilah-Blockchain-Studios" target='_blank'>
                   <BsGithub />
                 </Link>
             </li>
