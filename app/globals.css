@@ -2,14 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('@fontsource/space-grotesk/index.css');
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('/fonts/Neue Montreal/NeueMontreal-Regular.woff2') format('woff2'),
+       url('/fonts/Neue Montreal/NeueMontreal-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('/fonts/Neue Montreal/NeueMontreal-Medium.woff2') format('woff2'),
+       url('/fonts/Neue Montreal/NeueMontreal-Medium.woff') format('woff');
+  font-weight: medium;
+  font-style: normal;
+}
+
+/* @import url('@fontsource/space-grotesk/index.css'); */
 
 html, body{
   overflow-x: hidden;
+  font-family: 'Neue Montreal', sans-serif;
 }
 
 * {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Neue Montreal', sans-serif;
 }
 
 .text-gradient{

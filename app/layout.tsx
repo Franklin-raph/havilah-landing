@@ -25,9 +25,9 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
       </head>
       
-      <body className={inter.className}>
+      <body style={{ fontFamily: 'Neue Montreal, sans-serif' }}>
         <Nav />
-        <div className="bg-[#F2F3F4] pt-[190px]">
+        <div className="bg-[#F2F3F4] pt-[190px] font-neue-montreal">
           {children}
           <Footer />
         </div>

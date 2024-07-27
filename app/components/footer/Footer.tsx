@@ -10,7 +10,7 @@ import { HiMiniChevronDown } from 'react-icons/hi2'
 
 const Footer = () => {
   return (
-    <div className='p-[20px] md:px-[50px] pb-[3rem]'>
+    <div className='p-[20px] md:pl-[80px] pb-[3rem]'>
       <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 items-start justify-between mt-[10rem] gap-[2rem] w-full'>
         <div>
           <img src="./images/Logo.svg" alt="" className='mb-7'/>
@@ -19,13 +19,13 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <p className='text[18px] font-[600] mb-7'>Our address</p>
+          <p className='text[18px] font-medium mb-7'>Our address</p>
           <p className='mb-7'>37, St Anthony Lodge, Ifite-Awka Anambra, Nigeria. 420112</p>
           <p>AT: 5252837088 Unikorns Sp. z o. o. Registred in Warsaw, Poland</p>
         </div>
         <div className='flex gap-[30px] sm:gap-[45px] md:gap-16'>
           <div>
-            <p className='text[18px] font-[600] mb-7'>For You</p>
+            <p className='text[18px] font-medium mb-7'>For You</p>
             <ul className='grid gap-2'>
               <li>
                 <Link href="/">Services</Link>
@@ -36,7 +36,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <p className='text[18px] font-[600] mb-7'>About Us</p>
+            <p className='text[18px] font-medium mb-7'>About Us</p>
             <ul className='grid gap-2'>
               <li>
                 <Link href="/">Company</Link>
@@ -47,7 +47,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <p className='text[18px] font-[600] mb-7'>Connect</p>
+            <p className='text[18px] font-medium mb-7'>Connect</p>
             <ul className='grid gap-2'>
               <li>
                 <Link href="/">Accelerator</Link>

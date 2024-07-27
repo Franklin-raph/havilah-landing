@@ -11,14 +11,14 @@ interface BlogCardComponentProps {
 
 const BlogCard = ({ date, category, title, imageSrc, link } : BlogCardComponentProps) => {
   return (
-    <div className="max-w-sm mx-auto bg-white p-3 rounded-[16px]">
+    <div className="bg-white p-3 rounded-[16px]">
       <img src={imageSrc} alt={title} className="w-full h-50 object-cover rounded-lg" />
       <div className="mt-4">
         <div className='flex items-center justify-between'>
             <p className="text-gray-500 text-sm">{date}</p>
             <p className="text-sm text-gradient">{category}</p>
         </div>
-        <h2 className="text-gray-800 text-xl font-[500] mt-4 leading-[26px] tracking-[-1.5px]">{title}</h2>
+        <h2 className="text-gray-800 text-xl font-[500] mt-4 leading-[26px]">{title}</h2>
       </div>
       <div className="mt-[1.5rem] mb-5 ml-[10px]">
         <a 

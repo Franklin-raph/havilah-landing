@@ -74,12 +74,12 @@ const MainArea = () => {
     <div>
         <div className='text-center'>
             <p className='text-[18px] md:text-[18px] px-[20px]'>Havilah Blockchain Studios →️ 👨🏻‍💻 <span className="text-transparent text-gradient">Designs, Builds and Scales</span> </p>
-            <p className='text-[32px] md:text-[40px] lg:text-[44px] font-[500] md:w-[55%] w-[95%] mx-auto my-4 md:leading-[48.224px] md:tracking-[-3.2px]'>Web3 Startups using cutting-edge Solutions that fit your budget.</p>
-            <p className='text-[#717171] md:text-[20px] text-[18px] md:w-[40%] w-[90%] mx-auto leading-[30px] tracking-[-1.4px]'>Get your idea from paper to web or server in the shortest possible time using the most scalable architecture.</p>
-            <button className='bg-[#0F0A3E] px-[15px] rounded-full py-2 text-white mt-7'>Book a Call</button>
+            <p className='text-[32px] md:text-[40px] lg:text-[50px] font-[500] md:w-[55%] w-[95%] mx-auto my-4 lg:leading-[64px] leading-[32px]'>Web3 Startups using cutting-edge Solutions that fit your budget.</p>
+            <p className='text-[#717171] md:text-[20px] text-[18px] md:w-[40%] w-[90%] mx-auto leading-[30px]'>Get your idea from paper to web or server in the shortest possible time using the most scalable architecture.</p>
+            <button className='bg-[#0F0A3E] px-[16px] rounded-[12px] py-2 text-white mt-7'>Book a Call</button>
         </div>
         <div className='threeD-asset-bg pt-[9rem] relative'>
-            <img src="./images/3D-Asset.svg" className='absolute w-[60%] right-0 top-0' alt="" />
+            <img src="./images/3D-Asset.svg" className='absolute w-[60%] right-[-20px] top-0' alt="" />
             <div className='text-start md:px-[50px] px-[25px]'>
                 <p className='text-[#A1A1A1] mb-4'>Trusted by visionaries</p>
                 <Swiper
@@ -199,46 +199,46 @@ const MainArea = () => {
             <div className='mt-[12rem] text-center'>
                 <div className='md:w-[55%] md:mx-auto px-[10px]'>
                     <p className='text-[#666666] font-[500] text-[14px] tracking-[4.32px] md:leading-[51.6px]'>START HERE. BUILD ANYTHING</p>
-                    <p className='text-[#171717] font-[500] text-[28px] md:text-[30px] lg:text-[40px] w-[85%] mx-auto tracking-[-2.4px] md:leading-[45.168px]'>A complete suite of products to create and participate in web3</p>
+                    <p className='text-[#171717] font-[500] text-[28px] md:text-[30px] lg:text-[40px] w-[80%] mx-auto leading-[30px] md:leading-[45.168px]'>A complete suite of products to create and participate in web3</p>
                 </div>
             </div>
         </div>
 
-        <div className='text-left px-[15px] md:px-[50px] mt-[5rem]'>
-            <p className='text-[32px] font-[500] leading-[30px] mb-3'>Selected <br /> projects</p>
-            <p className='text-[#717171]'>Our works are a blend of innovative thinking and practical <br /> solutions, ensuring they are both unique and effective.</p>
-            <div className='flex items-start gap-8 mt-16 flex-col lg:flex-row'>
+        <div className='text-left mt-[5rem]'>
+            <p className='text-[32px] font-[500] leading-[30px] mb-3 pl-[80px]'>Selected <br /> projects</p>
+            <p className='text-[#717171] pl-[80px]'>Our works are a blend of innovative thinking and practical <br /> solutions, ensuring they are both unique and effective.</p>
+            <div className='flex items-start gap-8 mt-16 flex-col lg:flex-row pr-[80px]'>
                 <img src="./images/Frame1.svg" className='lg:w-[65%] w-[100%]' alt="" />
                 <div>
-                    <p className='text-[22px] font-[500] mb-10'>01. Havilah Blockchain Studios</p>
+                    <p className='text-[22px] font-[500] mb-10'>01. Rehoboth Finance</p>
                     <div className='mb-10'>
                         <p className='text-[#8E8E8E]'>Year:</p>
-                        <p className='font-[500]'>2022</p>
+                        <p className='font-[500]'>2023</p>
                     </div>
                     <div>
                         <p className='text-[#8E8E8E]'>Client:</p>
-                        <p className='font-[500]'>2022</p>
+                        <p className='font-[500]'>Internal Project</p>
                     </div>
                     <div className='mt-10'>
                         <p className='text-[#8E8E8E] mb-5'>Project Summary:</p>
                         <p className='leading-[24px] tracking-[-0.6px]'>
-                            Exalt Studio collaborated with Canadian brand ethos to create a Minimum Viable Product (MVP) for a platform that offers diverse customer benefits. The platform aimed to position ethos as a market leader by balancing technical functionality and creative design.
+                            Astro Finance is a cutting-edge liquidity protocol that allows users to swap, stake, lend/borrow, and bond assets with low fees and fast transaction times.
                         </p>
                     </div>
                 </div>
             </div>
             
-            <div className='flex lg:flex-row-reverse items-start gap-8 mt-[7rem] flex-col'>
+            <div className='flex lg:flex-row-reverse items-start gap-8 mt-[7rem] flex-col pl-[80px]'>
                 <img src="./images/Frame2.svg" className='lg:w-[65%] w-[100%]' alt="" />
                 <div>
-                    <p className='text-[22px] font-[500] mb-10'>02. Havilah Blockchain Studios</p>
+                    <p className='text-[22px] font-[500] mb-10'>02. Future Votes</p>
                     <div className='mb-10'>
                         <p className='text-[#8E8E8E]'>Year:</p>
                         <p className='font-[500]'>2022</p>
                     </div>
                     <div>
                         <p className='text-[#8E8E8E]'>Client:</p>
-                        <p className='font-[500]'>2022</p>
+                        <p className='font-[500]'>Pixe AI</p>
                     </div>
                     <div className='mt-10'>
                         <p className='text-[#8E8E8E] mb-5'>Project Summary:</p>
@@ -253,17 +253,18 @@ const MainArea = () => {
             </div>
         </div>
         
-        <div className='px-[20px] md:px-[30px] mt-[8rem]'>
-            <div className='flex items-center justify-between'>
+        <div className='px-[20px] md:pl-[80px] mt-[8rem]'>
+            <div className='flex flex-col mb-5'>
                 <p className='text-[18px] md:text-[28px] md:leading-[30px] mb-7'>Customer <br /> Review </p>
-                <div className='flex items-center gap-6 bg-white rounded-full px-4 py-2'>
+                <p className='text-[#717171] w-[43%]'>Our works are a blend of innovative thinking and practical solutions, ensuring they are both unique and effective.</p>
+                {/* <div className='flex items-center gap-6 bg-white rounded-full px-4 py-2'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" cursor='pointer'>
                         <path d="M13 5H7C6.46957 5 5.96086 5.21071 5.58579 5.58579C5.21071 5.96086 5 6.46957 5 7V13C5 13.5304 5.21071 14.0391 5.58579 14.4142C5.96086 14.7893 6.46957 15 7 15H13C13.5304 15 14.0391 14.7893 14.4142 14.4142C14.7893 14.0391 15 13.5304 15 13V7C15 6.46957 14.7893 5.96086 14.4142 5.58579C14.0391 5.21071 13.5304 5 13 5ZM13 13H7V7H13V13ZM25 5H19C18.4696 5 17.9609 5.21071 17.5858 5.58579C17.2107 5.96086 17 6.46957 17 7V13C17 13.5304 17.2107 14.0391 17.5858 14.4142C17.9609 14.7893 18.4696 15 19 15H25C25.5304 15 26.0391 14.7893 26.4142 14.4142C26.7893 14.0391 27 13.5304 27 13V7C27 6.46957 26.7893 5.96086 26.4142 5.58579C26.0391 5.21071 25.5304 5 25 5ZM25 13H19V7H25V13ZM13 17H7C6.46957 17 5.96086 17.2107 5.58579 17.5858C5.21071 17.9609 5 18.4696 5 19V25C5 25.5304 5.21071 26.0391 5.58579 26.4142C5.96086 26.7893 6.46957 27 7 27H13C13.5304 27 14.0391 26.7893 14.4142 26.4142C14.7893 26.0391 15 25.5304 15 25V19C15 18.4696 14.7893 17.9609 14.4142 17.5858C14.0391 17.2107 13.5304 17 13 17ZM13 25H7V19H13V25ZM25 17H19C18.4696 17 17.9609 17.2107 17.5858 17.5858C17.2107 17.9609 17 18.4696 17 19V25C17 25.5304 17.2107 26.0391 17.5858 26.4142C17.9609 26.7893 18.4696 27 19 27H25C25.5304 27 26.0391 26.7893 26.4142 26.4142C26.7893 26.0391 27 25.5304 27 25V19C27 18.4696 26.7893 17.9609 26.4142 17.5858C26.0391 17.2107 25.5304 17 25 17ZM25 25H19V19H25V25Z" fill="#03001D"/>
                     </svg>
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" cursor='pointer'>
                         <path d="M10 8C10 7.73478 10.1054 7.48043 10.2929 7.29289C10.4804 7.10536 10.7348 7 11 7H27C27.2652 7 27.5196 7.10536 27.7071 7.29289C27.8946 7.48043 28 7.73478 28 8C28 8.26522 27.8946 8.51957 27.7071 8.70711C27.5196 8.89464 27.2652 9 27 9H11C10.7348 9 10.4804 8.89464 10.2929 8.70711C10.1054 8.51957 10 8.26522 10 8ZM27 15H11C10.7348 15 10.4804 15.1054 10.2929 15.2929C10.1054 15.4804 10 15.7348 10 16C10 16.2652 10.1054 16.5196 10.2929 16.7071C10.4804 16.8946 10.7348 17 11 17H27C27.2652 17 27.5196 16.8946 27.7071 16.7071C27.8946 16.5196 28 16.2652 28 16C28 15.7348 27.8946 15.4804 27.7071 15.2929C27.5196 15.1054 27.2652 15 27 15ZM27 23H11C10.7348 23 10.4804 23.1054 10.2929 23.2929C10.1054 23.4804 10 23.7348 10 24C10 24.2652 10.1054 24.5196 10.2929 24.7071C10.4804 24.8946 10.7348 25 11 25H27C27.2652 25 27.5196 24.8946 27.7071 24.7071C27.8946 24.5196 28 24.2652 28 24C28 23.7348 27.8946 23.4804 27.7071 23.2929C27.5196 23.1054 27.2652 23 27 23ZM5.5 6.5C5.20333 6.5 4.91332 6.58797 4.66665 6.7528C4.41997 6.91762 4.22771 7.15189 4.11418 7.42597C4.00065 7.70006 3.97094 8.00166 4.02882 8.29264C4.0867 8.58361 4.22956 8.85088 4.43934 9.06066C4.64912 9.27044 4.91639 9.4133 5.20737 9.47118C5.49834 9.52906 5.79994 9.49935 6.07403 9.38582C6.34811 9.27229 6.58238 9.08003 6.74721 8.83335C6.91203 8.58668 7 8.29667 7 8C7 7.60218 6.84197 7.22064 6.56066 6.93934C6.27936 6.65804 5.89783 6.5 5.5 6.5ZM5.5 14.5C5.20333 14.5 4.91332 14.588 4.66665 14.7528C4.41997 14.9176 4.22771 15.1519 4.11418 15.426C4.00065 15.7001 3.97094 16.0017 4.02882 16.2926C4.0867 16.5836 4.22956 16.8509 4.43934 17.0607C4.64912 17.2704 4.91639 17.4133 5.20737 17.4712C5.49834 17.5291 5.79994 17.4993 6.07403 17.3858C6.34811 17.2723 6.58238 17.08 6.74721 16.8334C6.91203 16.5867 7 16.2967 7 16C7 15.6022 6.84197 15.2206 6.56066 14.9393C6.27936 14.658 5.89783 14.5 5.5 14.5ZM5.5 22.5C5.20333 22.5 4.91332 22.588 4.66665 22.7528C4.41997 22.9176 4.22771 23.1519 4.11418 23.426C4.00065 23.7001 3.97094 24.0017 4.02882 24.2926C4.0867 24.5836 4.22956 24.8509 4.43934 25.0607C4.64912 25.2704 4.91639 25.4133 5.20737 25.4712C5.49834 25.5291 5.79994 25.4993 6.07403 25.3858C6.34811 25.2723 6.58238 25.08 6.74721 24.8334C6.91203 24.5867 7 24.2967 7 24C7 23.6022 6.84197 23.2206 6.56066 22.9393C6.27936 22.658 5.89783 22.5 5.5 22.5Z" fill="#888888"/>
                     </svg>
-                </div>
+                </div> */}
             </div>
             <div className="bg-gray-100 items-center gap-[1rem] justify-center">
                 <Swiper
@@ -277,16 +278,16 @@ const MainArea = () => {
                             spaceBetween: 20,
                         },
                         640: {
-                        slidesPerView: 1,
-                        spaceBetween: 20,
+                            slidesPerView: 1,
+                            spaceBetween: 20,
                         },
                         768: {
-                        slidesPerView: 2,
-                        spaceBetween: 30,
+                            slidesPerView: 2,
+                            spaceBetween: 30,
                         },
                         1024: {
-                        slidesPerView: 3,
-                        spaceBetween: 30,
+                            slidesPerView: 2,
+                            spaceBetween: 30,
                         },
                     }}
                     loop={true}
@@ -351,47 +352,32 @@ const MainArea = () => {
                             imageUrl="https://via.placeholder.com/40" // Replace with the actual image URL
                         />
                     </SwiperSlide>
-                    <div className='flex items-center justify-center gap-5 mt-7'>
-                        <div className='border border-[#222222] p-2 rounded-full'>
-                            <IoChevronBackOutline className='prev-button cursor-pointer text-[#222222]'/>
-                        </div>
-                        <div className='border border-[#222222] p-2 rounded-full'>
-                            <IoChevronForward className='next-button cursor-pointer text-[#222222]'/>
+                    <div className='flex justify-between'>
+                        <p></p>
+                        <div className='flex items-center justify-center gap-5 mt-7'>
+                            <div className='border border-[#004FFF] p-2 rounded-full'>
+                                <IoChevronBackOutline className='prev-button cursor-pointer text-[#004FFF]'/>
+                            </div>
+                            <div className='border border-[#004FFF] p-2 rounded-full'>
+                                <IoChevronForward className='next-button cursor-pointer text-[#004FFF]'/>
+                            </div>
                         </div>
                     </div>
                 </Swiper>
             </div>
-            <div className='mt-[5rem] flex sm:flex-row sm:items-center flex-col items-start gap-10'>
-                <div className='flex items-end gap-[2px]'>
-                    <p className='font-[600] text-[30px]'>42</p>
-                    <p className='text-[#A5A5A5] mb-[6px]'>Completed projects</p>
-                </div>
-                <div className='flex items-end gap-[2px]'>
-                    <p className='font-[600] text-[30px]'>8</p>
-                    <p className='text-[#A5A5A5] mb-[6px]'>Awards & features</p>
-                </div>
-            </div>
         </div>
 
-        <div className='px-[20px] md:pl-[60px] mt-[8rem]'>
-            <div className='flex items-center justify-between mb-[60px]'>
-                <p className='text-[18px] leading-[30px] md:text-[28px]'>Pricing</p>
-                <div className='flex items-center gap-6 bg-white rounded-full px-4 py-2'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" cursor='pointer'>
-                        <path d="M13 5H7C6.46957 5 5.96086 5.21071 5.58579 5.58579C5.21071 5.96086 5 6.46957 5 7V13C5 13.5304 5.21071 14.0391 5.58579 14.4142C5.96086 14.7893 6.46957 15 7 15H13C13.5304 15 14.0391 14.7893 14.4142 14.4142C14.7893 14.0391 15 13.5304 15 13V7C15 6.46957 14.7893 5.96086 14.4142 5.58579C14.0391 5.21071 13.5304 5 13 5ZM13 13H7V7H13V13ZM25 5H19C18.4696 5 17.9609 5.21071 17.5858 5.58579C17.2107 5.96086 17 6.46957 17 7V13C17 13.5304 17.2107 14.0391 17.5858 14.4142C17.9609 14.7893 18.4696 15 19 15H25C25.5304 15 26.0391 14.7893 26.4142 14.4142C26.7893 14.0391 27 13.5304 27 13V7C27 6.46957 26.7893 5.96086 26.4142 5.58579C26.0391 5.21071 25.5304 5 25 5ZM25 13H19V7H25V13ZM13 17H7C6.46957 17 5.96086 17.2107 5.58579 17.5858C5.21071 17.9609 5 18.4696 5 19V25C5 25.5304 5.21071 26.0391 5.58579 26.4142C5.96086 26.7893 6.46957 27 7 27H13C13.5304 27 14.0391 26.7893 14.4142 26.4142C14.7893 26.0391 15 25.5304 15 25V19C15 18.4696 14.7893 17.9609 14.4142 17.5858C14.0391 17.2107 13.5304 17 13 17ZM13 25H7V19H13V25ZM25 17H19C18.4696 17 17.9609 17.2107 17.5858 17.5858C17.2107 17.9609 17 18.4696 17 19V25C17 25.5304 17.2107 26.0391 17.5858 26.4142C17.9609 26.7893 18.4696 27 19 27H25C25.5304 27 26.0391 26.7893 26.4142 26.4142C26.7893 26.0391 27 25.5304 27 25V19C27 18.4696 26.7893 17.9609 26.4142 17.5858C26.0391 17.2107 25.5304 17 25 17ZM25 25H19V19H25V25Z" fill="#03001D"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" cursor='pointer'>
-                        <path d="M10 8C10 7.73478 10.1054 7.48043 10.2929 7.29289C10.4804 7.10536 10.7348 7 11 7H27C27.2652 7 27.5196 7.10536 27.7071 7.29289C27.8946 7.48043 28 7.73478 28 8C28 8.26522 27.8946 8.51957 27.7071 8.70711C27.5196 8.89464 27.2652 9 27 9H11C10.7348 9 10.4804 8.89464 10.2929 8.70711C10.1054 8.51957 10 8.26522 10 8ZM27 15H11C10.7348 15 10.4804 15.1054 10.2929 15.2929C10.1054 15.4804 10 15.7348 10 16C10 16.2652 10.1054 16.5196 10.2929 16.7071C10.4804 16.8946 10.7348 17 11 17H27C27.2652 17 27.5196 16.8946 27.7071 16.7071C27.8946 16.5196 28 16.2652 28 16C28 15.7348 27.8946 15.4804 27.7071 15.2929C27.5196 15.1054 27.2652 15 27 15ZM27 23H11C10.7348 23 10.4804 23.1054 10.2929 23.2929C10.1054 23.4804 10 23.7348 10 24C10 24.2652 10.1054 24.5196 10.2929 24.7071C10.4804 24.8946 10.7348 25 11 25H27C27.2652 25 27.5196 24.8946 27.7071 24.7071C27.8946 24.5196 28 24.2652 28 24C28 23.7348 27.8946 23.4804 27.7071 23.2929C27.5196 23.1054 27.2652 23 27 23ZM5.5 6.5C5.20333 6.5 4.91332 6.58797 4.66665 6.7528C4.41997 6.91762 4.22771 7.15189 4.11418 7.42597C4.00065 7.70006 3.97094 8.00166 4.02882 8.29264C4.0867 8.58361 4.22956 8.85088 4.43934 9.06066C4.64912 9.27044 4.91639 9.4133 5.20737 9.47118C5.49834 9.52906 5.79994 9.49935 6.07403 9.38582C6.34811 9.27229 6.58238 9.08003 6.74721 8.83335C6.91203 8.58668 7 8.29667 7 8C7 7.60218 6.84197 7.22064 6.56066 6.93934C6.27936 6.65804 5.89783 6.5 5.5 6.5ZM5.5 14.5C5.20333 14.5 4.91332 14.588 4.66665 14.7528C4.41997 14.9176 4.22771 15.1519 4.11418 15.426C4.00065 15.7001 3.97094 16.0017 4.02882 16.2926C4.0867 16.5836 4.22956 16.8509 4.43934 17.0607C4.64912 17.2704 4.91639 17.4133 5.20737 17.4712C5.49834 17.5291 5.79994 17.4993 6.07403 17.3858C6.34811 17.2723 6.58238 17.08 6.74721 16.8334C6.91203 16.5867 7 16.2967 7 16C7 15.6022 6.84197 15.2206 6.56066 14.9393C6.27936 14.658 5.89783 14.5 5.5 14.5ZM5.5 22.5C5.20333 22.5 4.91332 22.588 4.66665 22.7528C4.41997 22.9176 4.22771 23.1519 4.11418 23.426C4.00065 23.7001 3.97094 24.0017 4.02882 24.2926C4.0867 24.5836 4.22956 24.8509 4.43934 25.0607C4.64912 25.2704 4.91639 25.4133 5.20737 25.4712C5.49834 25.5291 5.79994 25.4993 6.07403 25.3858C6.34811 25.2723 6.58238 25.08 6.74721 24.8334C6.91203 24.5867 7 24.2967 7 24C7 23.6022 6.84197 23.2206 6.56066 22.9393C6.27936 22.658 5.89783 22.5 5.5 22.5Z" fill="#888888"/>
-                    </svg>
-                </div>
+        <div className='px-[20px] md:pl-[80px] mt-[8rem]'>
+            <div className='flex flex-col items-start justify-between mb-[60px]'>
+                <p className='text-[18px] leading-[30px] md:text-[28px] mb-7'>Pricing</p>
+                <p className='text-[#717171] w-[33%]'>
+                    Get your project done with affordable prices that you can turst.
+                </p>
             </div>
 
-            <div className='flex items-start gap-[1rem] flex-col md:flex-row'>
-                <div className='md:w-[33%]'>
-                    <p className='w-[90%]'>
-                        Get a 50% discount as a first-time customer on any of our services by subscribing to our newsletter.
-                    </p>
-                    <div className="bg-white py-6 px-[26px] rounded-[16px] shadow-sm mt-[5rem] border border-transparent hover:border hover:border-[#004FFF] transition duration-300">
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 items-start gap-[1rem] flex-col'>
+                <div className='w-full'>
+                    <div className="bg-white py-6 px-[26px] rounded-[16px] shadow-sm border border-transparent hover:border hover:border-[#004FFF] transition duration-300">
                         <div className='flex items-center justify-between'>
                             <div>
                                 <h2 className="text-[#004FFF] text-[22px]">Full code & UX review</h2>
@@ -400,7 +386,7 @@ const MainArea = () => {
                         </div>
                         <div className="mt-[4rem]">
                             <span className="text-[#A1A1A1]">starting at</span>
-                            <div className="text-[45px] font-extrabold mt-1 text-[#171717]">$1,500</div>
+                            <div className="text-[45px] font-medium mt-1 text-[#171717]">$1,500</div>
                         </div>
                         <ul className="mt-6 space-y-2 text-[14px]">
                             <li className="flex items-center text-gray-700 gap-[8px]">
@@ -427,11 +413,15 @@ const MainArea = () => {
                                 <FaCircleCheck />
                                 <p>1 - 1 consultation</p>
                             </li>
+                            <li className="flex items-center text-gray-700 gap-[8px] opacity-0">
+                                <FaCircleCheck />
+                                <p>1 - 1 consultation</p>
+                            </li>
                         </ul>
                         <div className="mt-8 text-center">
                             <Link 
                             href="#" 
-                            className="inline-block text-[#004FFF] py-2 px-7 rounded-full hover:bg-[#F2F3F5] transition duration-300"
+                            className="inline-block text-[#004FFF] py-2 px-7 rounded-[12px] hover:bg-[#F2F3F5] transition duration-300"
                             >
                             Book a Call
                             </Link>
@@ -439,7 +429,7 @@ const MainArea = () => {
                     </div>
                 </div>
 
-                <div className='md:w-[33%] w-full'>
+                <div className=' w-full'>
                     <div className="bg-white py-6 px-[26px] rounded-[16px] shadow-sm border border-transparent hover:border hover:border-[#004FFF] transition duration-300">
                         <div className='flex items-center justify-between'>
                             <div>
@@ -452,7 +442,7 @@ const MainArea = () => {
                         </div>
                         <div className="mt-[4rem]">
                             <span className="text-[#A1A1A1]">starting at</span>
-                            <div className="text-[45px] font-extrabold mt-1 text-[#171717]">$7,000</div>
+                            <div className="text-[45px] font-medium mt-1 text-[#171717]">$7,000</div>
                         </div>
                         <ul className="mt-6 space-y-2 text-[14px]">
                             <li className="flex items-center text-gray-700 gap-[8px]">
@@ -487,7 +477,7 @@ const MainArea = () => {
                         <div className="mt-8 text-center">
                             <Link 
                             href="#" 
-                            className="inline-block text-[#004FFF] py-2 px-7 rounded-full hover:bg-[#F2F3F5] transition duration-300"
+                            className="inline-block text-[#004FFF] py-2 px-7 rounded-[12px] hover:bg-[#F2F3F5] transition duration-300"
                             >
                             Book a Call
                             </Link>
@@ -495,8 +485,8 @@ const MainArea = () => {
                     </div>
                 </div>
 
-                <div className='md:w-[33%] w-full'>
-                    <div className="bg-white py-6 px-[26px] rounded-[16px] shadow-sm md:mt-[10rem] border border-transparent hover:border hover:border-[#004FFF] transition duration-300">
+                <div className=' w-full'>
+                    <div className="bg-white py-6 px-[26px] rounded-[16px] shadow-sm border border-transparent hover:border hover:border-[#004FFF] transition duration-300">
                         <div className='flex items-center justify-between'>
                             <div>
                                 <h2 className="text-[#004FFF] text-[22px]">Fixed Price</h2>
@@ -505,7 +495,7 @@ const MainArea = () => {
                         </div>
                         <div className="mt-[4rem]">
                             <span className="text-[#A1A1A1]">starting at</span>
-                            <div className="text-[45px] font-extrabold mt-1 text-[#171717]">$15,000</div>
+                            <div className="text-[45px] font-medium mt-1 text-[#171717]">$15,000</div>
                         </div>
                         <ul className="mt-6 space-y-2 text-[14px]">
                             <li className="flex items-center text-gray-700 gap-[8px]">
@@ -540,7 +530,7 @@ const MainArea = () => {
                         <div className="mt-8 text-center">
                             <Link 
                             href="#" 
-                            className="inline-block text-[#004FFF] py-2 px-7 rounded-full hover:bg-[#F2F3F5] transition duration-300"
+                            className="inline-block text-[#004FFF] py-2 px-7 rounded-[12px] hover:bg-[#F2F3F5] transition duration-300"
                             >
                             Book a Call
                             </Link>
@@ -550,19 +540,12 @@ const MainArea = () => {
             </div>
         </div>
 
-        <div className='md:px-[30px] px-[20px] md:pl-[60px] mt-[8rem]'>
-            <div className='flex items-center justify-between mb-5'>
-                <p className='text-[18px] leading-[30px] md:text-[28px]'>Havilah Blog</p>
-                <div className='flex items-center gap-6 bg-white rounded-full px-4 py-2'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" cursor='pointer'>
-                        <path d="M13 5H7C6.46957 5 5.96086 5.21071 5.58579 5.58579C5.21071 5.96086 5 6.46957 5 7V13C5 13.5304 5.21071 14.0391 5.58579 14.4142C5.96086 14.7893 6.46957 15 7 15H13C13.5304 15 14.0391 14.7893 14.4142 14.4142C14.7893 14.0391 15 13.5304 15 13V7C15 6.46957 14.7893 5.96086 14.4142 5.58579C14.0391 5.21071 13.5304 5 13 5ZM13 13H7V7H13V13ZM25 5H19C18.4696 5 17.9609 5.21071 17.5858 5.58579C17.2107 5.96086 17 6.46957 17 7V13C17 13.5304 17.2107 14.0391 17.5858 14.4142C17.9609 14.7893 18.4696 15 19 15H25C25.5304 15 26.0391 14.7893 26.4142 14.4142C26.7893 14.0391 27 13.5304 27 13V7C27 6.46957 26.7893 5.96086 26.4142 5.58579C26.0391 5.21071 25.5304 5 25 5ZM25 13H19V7H25V13ZM13 17H7C6.46957 17 5.96086 17.2107 5.58579 17.5858C5.21071 17.9609 5 18.4696 5 19V25C5 25.5304 5.21071 26.0391 5.58579 26.4142C5.96086 26.7893 6.46957 27 7 27H13C13.5304 27 14.0391 26.7893 14.4142 26.4142C14.7893 26.0391 15 25.5304 15 25V19C15 18.4696 14.7893 17.9609 14.4142 17.5858C14.0391 17.2107 13.5304 17 13 17ZM13 25H7V19H13V25ZM25 17H19C18.4696 17 17.9609 17.2107 17.5858 17.5858C17.2107 17.9609 17 18.4696 17 19V25C17 25.5304 17.2107 26.0391 17.5858 26.4142C17.9609 26.7893 18.4696 27 19 27H25C25.5304 27 26.0391 26.7893 26.4142 26.4142C26.7893 26.0391 27 25.5304 27 25V19C27 18.4696 26.7893 17.9609 26.4142 17.5858C26.0391 17.2107 25.5304 17 25 17ZM25 25H19V19H25V25Z" fill="#03001D"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" cursor='pointer'>
-                        <path d="M10 8C10 7.73478 10.1054 7.48043 10.2929 7.29289C10.4804 7.10536 10.7348 7 11 7H27C27.2652 7 27.5196 7.10536 27.7071 7.29289C27.8946 7.48043 28 7.73478 28 8C28 8.26522 27.8946 8.51957 27.7071 8.70711C27.5196 8.89464 27.2652 9 27 9H11C10.7348 9 10.4804 8.89464 10.2929 8.70711C10.1054 8.51957 10 8.26522 10 8ZM27 15H11C10.7348 15 10.4804 15.1054 10.2929 15.2929C10.1054 15.4804 10 15.7348 10 16C10 16.2652 10.1054 16.5196 10.2929 16.7071C10.4804 16.8946 10.7348 17 11 17H27C27.2652 17 27.5196 16.8946 27.7071 16.7071C27.8946 16.5196 28 16.2652 28 16C28 15.7348 27.8946 15.4804 27.7071 15.2929C27.5196 15.1054 27.2652 15 27 15ZM27 23H11C10.7348 23 10.4804 23.1054 10.2929 23.2929C10.1054 23.4804 10 23.7348 10 24C10 24.2652 10.1054 24.5196 10.2929 24.7071C10.4804 24.8946 10.7348 25 11 25H27C27.2652 25 27.5196 24.8946 27.7071 24.7071C27.8946 24.5196 28 24.2652 28 24C28 23.7348 27.8946 23.4804 27.7071 23.2929C27.5196 23.1054 27.2652 23 27 23ZM5.5 6.5C5.20333 6.5 4.91332 6.58797 4.66665 6.7528C4.41997 6.91762 4.22771 7.15189 4.11418 7.42597C4.00065 7.70006 3.97094 8.00166 4.02882 8.29264C4.0867 8.58361 4.22956 8.85088 4.43934 9.06066C4.64912 9.27044 4.91639 9.4133 5.20737 9.47118C5.49834 9.52906 5.79994 9.49935 6.07403 9.38582C6.34811 9.27229 6.58238 9.08003 6.74721 8.83335C6.91203 8.58668 7 8.29667 7 8C7 7.60218 6.84197 7.22064 6.56066 6.93934C6.27936 6.65804 5.89783 6.5 5.5 6.5ZM5.5 14.5C5.20333 14.5 4.91332 14.588 4.66665 14.7528C4.41997 14.9176 4.22771 15.1519 4.11418 15.426C4.00065 15.7001 3.97094 16.0017 4.02882 16.2926C4.0867 16.5836 4.22956 16.8509 4.43934 17.0607C4.64912 17.2704 4.91639 17.4133 5.20737 17.4712C5.49834 17.5291 5.79994 17.4993 6.07403 17.3858C6.34811 17.2723 6.58238 17.08 6.74721 16.8334C6.91203 16.5867 7 16.2967 7 16C7 15.6022 6.84197 15.2206 6.56066 14.9393C6.27936 14.658 5.89783 14.5 5.5 14.5ZM5.5 22.5C5.20333 22.5 4.91332 22.588 4.66665 22.7528C4.41997 22.9176 4.22771 23.1519 4.11418 23.426C4.00065 23.7001 3.97094 24.0017 4.02882 24.2926C4.0867 24.5836 4.22956 24.8509 4.43934 25.0607C4.64912 25.2704 4.91639 25.4133 5.20737 25.4712C5.49834 25.5291 5.79994 25.4993 6.07403 25.3858C6.34811 25.2723 6.58238 25.08 6.74721 24.8334C6.91203 24.5867 7 24.2967 7 24C7 23.6022 6.84197 23.2206 6.56066 22.9393C6.27936 22.658 5.89783 22.5 5.5 22.5Z" fill="#888888"/>
-                    </svg>
-                </div>
+        <div className='md:px-[30px] px-[20px] md:pl-[80px] mt-[8rem]'>
+            <div className='flex flex-col mb-5'>
+                <p className='text-[18px] leading-[30px] md:text-[28px] mb-7'>Havilah Blog</p>
+                <p className='text-[#717171] w-[43%]'>Our works are a blend of innovative thinking and practical solutions, ensuring they are both unique and effective.</p>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-center justify-center md:p-4 py-4 gap-10">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 items-start justify-start place-content-center place-items-start py-4 gap-10">
                 <BlogCard 
                     date="12, May 2022" 
                     category="Community" 
@@ -585,31 +568,29 @@ const MainArea = () => {
                     link="#"
                 />
             </div>
-            <div className='text-center mt-[2rem]'>
-                <p className='cursor-pointer inline text-[14px]'>Read More Articles</p>
-            </div>
             {/* <div className="bg-gray-100 flex items-center gap-[1rem] justify-center">
             </div> */}
         </div>
-        <div className='px-[20px] md:px-[50px] mt-[5rem]'>
+        <div className='px-[20px] md:pl-[80px] mt-[5rem]'>
             <div className="relative h-[55vh] flex items-end justify-between w-full rounded-[16px] overflow-hidden">
                 <img 
                     src="./images/news1.svg" // Replace with your image path
                     alt="Typewriter"
-                    className="absolute inset-0 w-full h-[55vh]"
+                    className="absolute inset-0 w-full h-full object-cover"
                 />
                 {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-transparent opacity-50"></div> */}
-                <div className="relative right-[24px] z-10 p-4 sm:p-8 bg-white bg-opacity-[95%] w-full sm:w-[60%] md:w-[50%] rounded-l-[16px] ml-auto">
+                <div className="relative right-[24px] bottom-0 z-10 p-4 sm:p-8 bg-white bg-opacity-[95%] w-full md:w-[60%] rounded-l-[16px] ml-auto">
                     <div className='flex items-center'>
                         <p className='text-gradient text-[12px]'>STAY UP TO DATE</p>
                     </div>
-                    <h2 className="sm:text-2xl text-lg font-[500] text-gray-800">Get the Havilah Newsletter</h2>
-                    <div className="mt-4 flex items-center">
+                    <h2 className="sm:text-[32px] text-lg font-normal text-gray-800 mt-3">Get the Havilah Newsletter</h2>
+                    <div className="mt-6 flex items-center mr-[-25px]">
                         <input
                             type="email"
                             placeholder="Enter your email"
-                            className="p-2 border border-gray-300 rounded-full placeholder:text-[12px] text-[12px] focus:outline-none w-full bg-transparent"
+                            className="p-2 border border-gray-300 rounded-l-full placeholder:text-[12px] text-[12px] focus:outline-none w-[35%] bg-transparent"
                         />
+                        <button className='py-2 px-4 bg-[#004FFF] text-white rounded-r-full text-[14px]'>Submit</button>
                     </div>
                 </div>
             </div>

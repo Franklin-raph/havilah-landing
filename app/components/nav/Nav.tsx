@@ -5,6 +5,7 @@ import { HiMiniChevronDown } from "react-icons/hi2";
 import Link from 'next/link';
 import { FiMenu } from "react-icons/fi";
 import { IoClose } from "react-icons/io5";
+import { RxDashboard } from "react-icons/rx";
 
 
 
@@ -41,7 +42,7 @@ const Nav = () => {
             <span>⚡️</span>
             <span className='text-[#0073DD] font-[300]'>Lagos, Nigeria</span>
         </div>
-        <FiMenu onClick={() => setOpenNav(true)} className='cursor-pointer xl:hidden block text-[22px]'/>
+        <RxDashboard onClick={() => setOpenNav(true)} className='cursor-pointer xl:hidden block text-[22px]'/>
         <ul className='xl:flex justify-between items-center gap-5 text-[#555] hidden text-[14px]'>
             <li className='flex items-center gap-1 cursor-pointer'>
                 <p>Services</p>
